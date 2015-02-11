@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworkActivityLogger (2.0.3):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AFNetworking2-RACExtensions (0.0.1):
+    - AFNetworking (~> 2.0)
+    - ReactiveCocoa (~> 2.0)
+  - NSString-HTML (0.0.1)
+  - PureLayout (2.0.5)
+  - ReactiveCocoa (2.4.4):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.4.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.4)
+  - ReactiveCocoa/UI (2.4.4):
+    - ReactiveCocoa/Core
+  - SVProgressHUD (1.1.2)
+  - ZLSwipeableView (0.0.6)
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger (~> 2.0.3)
+  - AFNetworking (~> 2.4.1)
+  - AFNetworking2-RACExtensions (~> 0.0)
+  - NSString-HTML
+  - PureLayout
+  - ReactiveCocoa (~> 2.4.4)
+  - SVProgressHUD
+  - ZLSwipeableView
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: d6a2d2755fada3a1fbf1f490ec0dd92224e092a4
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  AFNetworking2-RACExtensions: 38ac068ed0257ca0a11f380bfd8375023c1cbe57
+  NSString-HTML: 2ccaa6a9886d35f8176ee5e456442bd1524c151b
+  PureLayout: 63a3257320223e8edddcd3afb407445f85a6bf74
+  ReactiveCocoa: 31119068e3dde866bd257cf74e1f06b4023bf387
+  SVProgressHUD: da7a49e789af645d9279ffbca62318945a832438
+  ZLSwipeableView: 9e956c587f9aecd16596544a7d079fb86b9c8c3d
+
+COCOAPODS: 0.34.1
