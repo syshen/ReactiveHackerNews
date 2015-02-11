@@ -11,6 +11,7 @@
 @interface CardView : UIView
 
 - (void) bindViewModel:(StoryViewModel*)viewModel;
+@property (nonatomic, readonly) StoryViewModel *viewModel;
 
 @property (nonatomic, weak) IBOutlet UILabel *titleLabel;
 //@property (nonatomic, weak) IBOutlet UILabel *dateLabel;

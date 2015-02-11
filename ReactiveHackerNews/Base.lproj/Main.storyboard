@@ -28,7 +28,7 @@
                                 </state>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4S-GZ-xim" customClass="ZLSwipeableView">
-                                <rect key="frame" x="31" y="100" width="538" height="380"/>
+                                <rect key="frame" x="31" y="100" width="538" height="400"/>
                                 <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cf0-xi-gZq">
@@ -47,7 +47,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Pxs-2q-fNT" secondAttribute="trailing" constant="5" id="5Zu-LP-Kj9"/>
                             <constraint firstItem="cf0-xi-gZq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="89J-fQ-wSr"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Pxs-2q-fNT" secondAttribute="bottom" constant="10" id="ClZ-pk-clp"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="f4S-GZ-xim" secondAttribute="bottom" constant="120" id="LrO-Ao-8Ez"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="f4S-GZ-xim" secondAttribute="bottom" constant="100" id="LrO-Ao-8Ez"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cf0-xi-gZq" secondAttribute="bottom" constant="10" id="SKv-vl-dod"/>
                             <constraint firstItem="f4S-GZ-xim" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="bwX-NW-RVy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="f4S-GZ-xim" secondAttribute="trailing" constant="15" id="grb-Ol-acG"/>
@@ -66,6 +66,7 @@
                         <outlet property="refreshButton" destination="Pxs-2q-fNT" id="bxG-r5-Jpk"/>
                         <outlet property="swipeableView" destination="f4S-GZ-xim" id="NNg-cF-iHQ"/>
                         <segue destination="7sv-Ea-AUj" kind="presentation" identifier="about" id="hDv-lg-x2g"/>
+                        <segue destination="Ccd-MM-8nd" kind="presentation" identifier="story" id="lfo-QK-CVj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -97,6 +98,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="duj-1S-sr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2024" y="245"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NTQ-kk-2p4">
+            <objects>
+                <navigationController id="Ccd-MM-8nd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Y63-Rh-3ec">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="50D-Fb-eIf" kind="relationship" relationship="rootViewController" id="k9j-f8-HUq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YZU-p6-ZUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="-486"/>
+        </scene>
+        <!--Story View Controller-->
+        <scene sceneID="IKa-ui-TA2">
+            <objects>
+                <viewController id="50D-Fb-eIf" customClass="StoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wdc-ON-Y84"/>
+                        <viewControllerLayoutGuide type="bottom" id="FUJ-Nz-Y6e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s0V-Uf-9aO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Go7-le-vwh">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whX-QM-DCd">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" id="HO0-Qh-sc2"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="whX-QM-DCd" secondAttribute="trailing" constant="-16" id="FVo-28-NEc"/>
+                            <constraint firstItem="FUJ-Nz-Y6e" firstAttribute="top" secondItem="whX-QM-DCd" secondAttribute="bottom" id="HZv-CI-g7X"/>
+                            <constraint firstItem="Go7-le-vwh" firstAttribute="leading" secondItem="s0V-Uf-9aO" secondAttribute="leadingMargin" constant="-16" id="Kz6-Ja-M2V"/>
+                            <constraint firstItem="FUJ-Nz-Y6e" firstAttribute="top" secondItem="Go7-le-vwh" secondAttribute="bottom" constant="44" id="MY1-Jn-et0"/>
+                            <constraint firstItem="whX-QM-DCd" firstAttribute="leading" secondItem="s0V-Uf-9aO" secondAttribute="leadingMargin" constant="-16" id="Vpz-fE-cPU"/>
+                            <constraint firstItem="Go7-le-vwh" firstAttribute="top" secondItem="Wdc-ON-Y84" secondAttribute="bottom" constant="-64" id="Xzr-63-D1i"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Go7-le-vwh" secondAttribute="trailing" constant="-16" id="vnh-nl-5qM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="n64-xK-QOc"/>
+                    <connections>
+                        <outlet property="toolBar" destination="whX-QM-DCd" id="QjW-Az-FpC"/>
+                        <outlet property="webView" destination="Go7-le-vwh" id="Btp-EQ-QdO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3bS-cN-gSg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2024" y="-486"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="z62-sK-qM7">

@@ -4,6 +4,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target "ReactiveHackerNews" do
+	pod 'pop'
 	pod 'PureLayout'
 	pod 'NSString-HTML'
 	pod 'ZLSwipeableView'

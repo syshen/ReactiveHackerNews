@@ -12,10 +12,12 @@
 #import "UIView+Nib.h"
 #import "ViewModel.h"
 #import "StoryViewModel.h"
+#import "StoryViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <ZLSwipeableView/ZLSwipeableView.h>
 #import <PureLayout/PureLayout.h>
 #import <SVProgressHUD/SVProgressHUD.h>
+#import <POP/POP.h>
 
 @interface ViewController () <ZLSwipeableViewDataSource, ZLSwipeableViewDelegate>
 @property (nonatomic, weak) IBOutlet ZLSwipeableView *swipeableView;
@@ -23,6 +25,7 @@
 @property (nonatomic, strong) NSMutableArray *topStories;
 @property (nonatomic, weak) IBOutlet UIButton *refreshButton;
 @property (nonatomic, weak) IBOutlet UIButton *aboutButton;
+@property (nonatomic, strong) NSString *selectedUrlString;
 @end
 
 @implementation ViewController 
@@ -111,8 +114,35 @@
     StoryViewModel *story = self.topStories[0];
     [self.topStories removeObjectAtIndex:0];
     [card bindViewModel:story];
+
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]init];
+    @weakify(self);
+    [[tap rac_gestureSignal] subscribeNext:^(UITapGestureRecognizer *gesture) {
+        @strongify(self);
+        UIView *tapview = gesture.view;
+        CardView *cardView = tapview.subviews[0];
+        self.selectedUrlString = cardView.viewModel.url;
+        [self popView:cardView complete:^{
+            @strongify(self);
+            [self performSegueWithIdentifier:@"story" sender:nil];
+        }];
+    }];
+    [view addGestureRecognizer:tap];
     
     return view;
+}
+
+- (void) popView:(UIView*)view  complete:(void (^)(void))completion {
+    POPSpringAnimation *spring = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
+    spring.springBounciness = 12.0f;
+    spring.springSpeed = 5.0f;
+    spring.fromValue = [NSValue valueWithCGSize:CGSizeMake(0.95, 0.95)];
+    spring.toValue = [NSValue valueWithCGSize:CGSizeMake(1.0, 1.0)];
+    spring.completionBlock = ^(POPAnimation *animation, BOOL success) {
+        if (completion)
+            completion();
+    };
+    [view.layer pop_addAnimation:spring forKey:@"pop"];
 }
 
 
@@ -132,6 +162,14 @@
 
 - (void) swipeableView:(ZLSwipeableView *)swipeableView swipingView:(UIView *)view atLocation:(CGPoint)location translation:(CGPoint)translation {
     
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"story"]) {
+        StoryViewController *story = (StoryViewController*)((UINavigationController*)segue.destinationViewController).topViewController;
+        story.presentingURLString = self.selectedUrlString;
+        self.selectedUrlString = nil;
+    }
 }
 
 - (void)didReceiveMemoryWarning {

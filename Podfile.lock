@@ -27,6 +27,7 @@ PODS:
     - AFNetworking (~> 2.0)
     - ReactiveCocoa (~> 2.0)
   - NSString-HTML (0.0.1)
+  - pop (1.0.7)
   - PureLayout (2.0.5)
   - ReactiveCocoa (2.4.4):
     - ReactiveCocoa/UI
@@ -43,6 +44,7 @@ DEPENDENCIES:
   - AFNetworking (~> 2.4.1)
   - AFNetworking2-RACExtensions (~> 0.0)
   - NSString-HTML
+  - pop
   - PureLayout
   - ReactiveCocoa (~> 2.4.4)
   - SVProgressHUD
@@ -53,6 +55,7 @@ SPEC CHECKSUMS:
   AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
   AFNetworking2-RACExtensions: 38ac068ed0257ca0a11f380bfd8375023c1cbe57
   NSString-HTML: 2ccaa6a9886d35f8176ee5e456442bd1524c151b
+  pop: 2f14a1ea61339767af9e66741b418c831b3844df
   PureLayout: 63a3257320223e8edddcd3afb407445f85a6bf74
   ReactiveCocoa: 31119068e3dde866bd257cf74e1f06b4023bf387
   SVProgressHUD: da7a49e789af645d9279ffbca62318945a832438
