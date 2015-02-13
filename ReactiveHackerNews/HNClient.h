@@ -19,6 +19,6 @@
 - (RACSignal*) maxItemIdentity;
 - (RACSignal*) topStories;
 - (RACSignal*) itemWithIdentity:(NSInteger)identity;
-//- (RACSignal*) userWithIdentity:(NSString*)userId;
+- (RACSignal*) userWithIdentity:(NSString*)userId;
 
 @end

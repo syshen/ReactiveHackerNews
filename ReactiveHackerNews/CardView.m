@@ -9,6 +9,7 @@
 #import "CardView.h"
 @interface CardView()
 @property (nonatomic, strong) StoryViewModel *viewModel;
+@property (nonatomic, weak) IBOutlet UIImageView *errorImage;
 @end
 @implementation CardView
 
@@ -23,6 +24,9 @@
     // Corner Radius
     self.layer.cornerRadius = 10.0;
     
+    self.errorImage.layer.cornerRadius = 10.0f;
+    self.errorImage.backgroundColor = [UIColor colorWithWhite:0.9 alpha:0.9];
+    
 }
 
 - (void)bindViewModel:(StoryViewModel *)viewModel {
@@ -34,7 +38,7 @@
         return value != nil;
     }] map:^id(NSString *title) {
         CGSize size = [title sizeWithAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"AvenirNext-Bold" size:20]}];
-        if (size.width > (self.titleLabel.frame.size.width * 2))
+        if (size.width > (self.titleLabel.frame.size.width * 1.5))
             return [UIFont fontWithName:@"AvenirNext-Bold" size:16];
         else
             return [UIFont fontWithName:@"AvenirNext-Bold" size:20];
@@ -56,6 +60,13 @@
     RAC(self.scoreLabel, text) = [[RACObserve(self.viewModel, score) map:^id(NSNumber *value) {
         return [NSString stringWithFormat:@"%d", value.intValue];
     }] deliverOnMainThread];
+    RAC(self.urlLabel, text) = [RACObserve(self.viewModel, url) deliverOnMainThread];
+    
+    [[self.viewModel.loadContentCommand errors] subscribeNext:^(id x) {
+        @strongify(self);
+        if (x)
+            self.errorImage.hidden = NO;
+    }];
     
     [self.viewModel.loadStoryCommand execute:nil];
 

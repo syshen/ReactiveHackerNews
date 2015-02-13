@@ -19,4 +19,5 @@
 @property (nonatomic, weak) IBOutlet UITextView *contextTextView;
 @property (nonatomic, weak) IBOutlet UILabel *scoreLabel;
 @property (nonatomic, weak) IBOutlet UILabel *commentLabel;
+@property (nonatomic, weak) IBOutlet UILabel *urlLabel;
 @end

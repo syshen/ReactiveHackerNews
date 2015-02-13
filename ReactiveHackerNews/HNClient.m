@@ -53,4 +53,11 @@
         return response;
     }] deliverOn:[RACScheduler schedulerWithPriority:RACSchedulerPriorityBackground]];
 }
+
+- (RACSignal*) userWithIdentity:(NSString *)userId {
+    NSString *endpoint = [NSString stringWithFormat:@"user/%@.json", userId];
+    return [[[self rac_GET:endpoint parameters:nil] reduceEach:^id (AFHTTPRequestOperation *op, NSDictionary *response) {
+        return response;
+    }] deliverOn:[RACScheduler schedulerWithPriority:RACSchedulerPriorityBackground]];
+}
 @end

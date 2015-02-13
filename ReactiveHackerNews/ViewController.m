@@ -14,6 +14,7 @@
 #import "StoryViewModel.h"
 #import "StoryViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/UIAlertView+RACSignalSupport.h>
 #import <ZLSwipeableView/ZLSwipeableView.h>
 #import <PureLayout/PureLayout.h>
 #import <SVProgressHUD/SVProgressHUD.h>
@@ -45,16 +46,18 @@
         }
     }];
     
+    @weakify(self);
     [[self.viewModel.refreshCommand.errors deliverOnMainThread] subscribeNext:^(NSError *error) {
         [SVProgressHUD dismiss];
-        [SVProgressHUD showErrorWithStatus:@"Something wrong >_<"];
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [SVProgressHUD dismiss];
-        });
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Something wrong! >_<" delegate:nil cancelButtonTitle:@"Retry" otherButtonTitles:nil];
+        [[alert rac_buttonClickedSignal] subscribeNext:^(id x) {
+            @strongify(self);
+            [self reload];
+        }];
+        [alert show];
         NSLog(@"error: %@", error);
     }];
     
-    @weakify(self);
     [[[self.viewModel.refreshCommand.executionSignals flatten] deliverOnMainThread]
      subscribeNext:^(NSArray *response) {
          @strongify(self);
