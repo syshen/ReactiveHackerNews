@@ -10,6 +10,7 @@
 @interface CardView()
 @property (nonatomic, strong) StoryViewModel *viewModel;
 @property (nonatomic, weak) IBOutlet UIImageView *errorImage;
+@property (nonatomic, weak) IBOutlet UILabel *errorMessage;
 @end
 @implementation CardView
 
@@ -26,6 +27,7 @@
     
     self.errorImage.layer.cornerRadius = 10.0f;
     self.errorImage.backgroundColor = [UIColor colorWithWhite:0.9 alpha:0.9];
+    self.errorMessage.textColor = [UIColor colorWithWhite:0.9 alpha:0.9];
     
 }
 
@@ -64,8 +66,10 @@
     
     [[self.viewModel.loadContentCommand errors] subscribeNext:^(id x) {
         @strongify(self);
-        if (x)
+        if (x) {
             self.errorImage.hidden = NO;
+            self.errorMessage.hidden = NO;
+        }
     }];
     
     [self.viewModel.loadStoryCommand execute:nil];

@@ -26,7 +26,7 @@
     [super viewDidLoad];
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] init];
-    self.navigationItem.leftBarButtonItem.title = @"Dismiss";
+    self.navigationItem.leftBarButtonItem.title = @"Done";
     @weakify(self);
     self.navigationItem.leftBarButtonItem.rac_command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
         @strongify(self);

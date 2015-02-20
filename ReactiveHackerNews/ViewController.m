@@ -27,6 +27,7 @@
 @property (nonatomic, weak) IBOutlet UIButton *refreshButton;
 @property (nonatomic, weak) IBOutlet UIButton *aboutButton;
 @property (nonatomic, strong) NSString *selectedUrlString;
+@property (nonatomic, weak) IBOutlet UILabel *doneLabel;
 @end
 
 @implementation ViewController 
@@ -82,6 +83,7 @@
          [self performSegueWithIdentifier:@"about" sender:nil];
     }];
     
+    
 }
 
 - (BOOL) shouldAutorotate {
@@ -94,6 +96,7 @@
 
 - (void) viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
+
     self.swipeableView.dataSource = self;
 
 }
@@ -109,12 +112,17 @@
     CardView *card = [CardView viewFromNib];
     card.translatesAutoresizingMaskIntoConstraints = NO;
     [view addSubview:card];
-    [card autoPinEdgeToSuperviewMargin:ALEdgeLeft];
-    [card autoPinEdgeToSuperviewMargin:ALEdgeRight];
-    [card autoPinEdgeToSuperviewMargin:ALEdgeTop];
-    [card autoPinEdgeToSuperviewMargin:ALEdgeBottom];
-
-    StoryViewModel *story = self.topStories[0];
+    [card autoCenterInSuperview];
+    
+    CGFloat width = CGRectGetWidth(self.swipeableView.frame);
+    CGFloat height = CGRectGetHeight(self.swipeableView.frame);
+    [card autoSetDimension:ALDimensionHeight toSize:height];
+    [card autoSetDimension:ALDimensionWidth toSize:width];
+    
+    if (self.topStories.count == 0)
+        return nil;
+    
+    StoryViewModel *story = [self.topStories firstObject];
     [self.topStories removeObjectAtIndex:0];
     [card bindViewModel:story];
 
@@ -124,7 +132,11 @@
         @strongify(self);
         UIView *tapview = gesture.view;
         CardView *cardView = tapview.subviews[0];
-        self.selectedUrlString = cardView.viewModel.url;
+        if (cardView.viewModel.url && cardView.viewModel.url.length) {
+            self.selectedUrlString = cardView.viewModel.url;
+        } else {
+            self.selectedUrlString = [NSString stringWithFormat:@"https://news.ycombinator.com/item?id=%d", (int)cardView.viewModel.itemIdentity];
+        }
         [self popView:cardView complete:^{
             @strongify(self);
             [self performSegueWithIdentifier:@"story" sender:nil];
