@@ -7,6 +7,7 @@
 //
 
 #import "StoryViewController.h"
+#import "UIWebView+RAC.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <TUSafariActivity/TUSafariActivity.h>
 #import <NJKWebViewProgress/NJKWebViewProgress.h>
@@ -18,6 +19,8 @@
 @property (nonatomic, strong) NJKWebViewProgress *progressProxy;
 @property (nonatomic, strong) NJKWebViewProgressView *progressView;
 @property (nonatomic, strong) NSString *title;
+@property (nonatomic, assign) BOOL canGoBack;
+@property (nonatomic, assign) BOOL canGoForward;
 @end
 
 @implementation StoryViewController
@@ -36,8 +39,7 @@
     
     UIBarButtonItem *left = [[UIBarButtonItem alloc] init];
     left.image = [UIImage imageNamed:@"left"];
-    RACSignal *canGoBack = RACObserve(self.webView, canGoBack);
-    left.rac_command = [[RACCommand alloc] initWithEnabled:canGoBack
+    left.rac_command = [[RACCommand alloc] initWithEnabled:self.webView.rac_canGoBack
                                                signalBlock:^RACSignal *(id input) {
                                                    @strongify(self);
                                                    [self.webView goBack];
@@ -46,8 +48,7 @@
     
     UIBarButtonItem *right = [[UIBarButtonItem alloc] init];
     right.image = [UIImage imageNamed:@"right"];
-    RACSignal *canGoForward = RACObserve(self.webView, canGoForward);
-    right.rac_command = [[RACCommand alloc] initWithEnabled:canGoForward
+    right.rac_command = [[RACCommand alloc] initWithEnabled:self.webView.rac_canGoForward
                                                 signalBlock:^RACSignal *(id input) {
                                                     @strongify(self);
                                                     [self.webView goForward];
@@ -79,10 +80,20 @@
     self.toolBar.items = items;
     self.toolBar.tintColor = [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:1.0/255.0 alpha:1.0];
     self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:1.0/255.0 alpha:1.0];
+
+    [self.webView.rac_didFinishLoad subscribeNext:^(id x) {
+        @strongify(self);
+        self.title = [self.webView stringByEvaluatingJavaScriptFromString:@"document.title"];
+    }];
     
+    [self.webView.rac_error subscribeError:^(NSError *error) {
+        UIAlertView *alerView = [[UIAlertView alloc] initWithTitle:@"Something weng wrong" message:error.localizedDescription delegate:nil cancelButtonTitle:@"Got it" otherButtonTitles: nil];
+        [alerView show];
+    }];
+    
+    // Loading indicator
     self.progressProxy = [[NJKWebViewProgress alloc] init]; // instance variable
-    self.webView.delegate = self.progressProxy;
-    self.progressProxy.webViewProxyDelegate = self;
+    self.webView.proxyDelegate = self.progressProxy;
     self.progressProxy.progressDelegate = self;
 
     CGFloat progressBarHeight = 2.f;
@@ -114,19 +125,5 @@
 {
     [self.progressView setProgress:progress animated:YES];
 }
-
-- (void) webViewDidFinishLoad:(UIWebView *)webView {
-    self.title = [self.webView stringByEvaluatingJavaScriptFromString:@"document.title"];
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

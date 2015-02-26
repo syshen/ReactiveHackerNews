@@ -24,6 +24,7 @@
 		805115EC1A8B083600E31650 /* AboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115EB1A8B083600E31650 /* AboutTableViewController.m */; };
 		805115EF1A8B10BC00E31650 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115EE1A8B10BC00E31650 /* StoryViewController.m */; };
 		8056EE061A899905007FDB85 /* HNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056EE051A899905007FDB85 /* HNClient.m */; };
+		80598CB01A9F169D000B03CE /* UIWebView+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598CAF1A9F169D000B03CE /* UIWebView+RAC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		805115EE1A8B10BC00E31650 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
 		8056EE041A899905007FDB85 /* HNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNClient.h; sourceTree = "<group>"; };
 		8056EE051A899905007FDB85 /* HNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNClient.m; sourceTree = "<group>"; };
+		80598CAE1A9F169D000B03CE /* UIWebView+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+RAC.h"; sourceTree = "<group>"; };
+		80598CAF1A9F169D000B03CE /* UIWebView+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RAC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				805115EB1A8B083600E31650 /* AboutTableViewController.m */,
 				805115ED1A8B10BC00E31650 /* StoryViewController.h */,
 				805115EE1A8B10BC00E31650 /* StoryViewController.m */,
+				80598CAE1A9F169D000B03CE /* UIWebView+RAC.h */,
+				80598CAF1A9F169D000B03CE /* UIWebView+RAC.m */,
 				804853F11A89166D008C0D75 /* Main.storyboard */,
 				804853F41A89166D008C0D75 /* Images.xcassets */,
 				804853F61A89166D008C0D75 /* LaunchScreen.xib */,
@@ -356,6 +361,7 @@
 				805115E31A8A441600E31650 /* StoryViewModel.m in Sources */,
 				805115EC1A8B083600E31650 /* AboutTableViewController.m in Sources */,
 				805115E01A8A427500E31650 /* ViewModel.m in Sources */,
+				80598CB01A9F169D000B03CE /* UIWebView+RAC.m in Sources */,
 				805115E61A8A4E8100E31650 /* ReadabilityClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
