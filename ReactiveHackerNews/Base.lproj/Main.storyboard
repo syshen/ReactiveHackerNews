@@ -104,8 +104,8 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z7H-V3-7hT" id="TOR-3e-SBt">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa5-fx-isC">
-                                                    <rect key="frame" x="18" y="48" width="564" height="85"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa5-fx-isC">
+                                                    <rect key="frame" x="18" y="48" width="2487" height="85"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="85" id="qUA-Te-1mu"/>
                                                     </constraints>
@@ -118,12 +118,12 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="240" id="0FC-Tm-xhv"/>
                                                     </constraints>
-                                                    <string key="text">Thanks for using Reactive Hacker News (RHN)! This is a demo app I used for Reactive Cocoa practice. You can find the complete source code of this app at my github repo: https://github.com/syshen/ReactiveHackerNews . Feel free to contact me if you have more questions about Reactive Cocoa.</string>
+                                                    <string key="text">Thanks for using Reactive Hacker News (RHN)! This is a full function Hacker News Reader app implemented with Reactive Cocoa. And it is open source. You can find the source code of this app at my github repo: https://github.com/syshen/ReactiveHackerNews . Feel free to contact me if you have more questions about Reactive Cocoa.</string>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Follow me at @syshen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGa-YK-emw">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Follow me @syshen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGa-YK-emw">
                                                     <rect key="frame" x="178" y="381" width="245" height="23.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="23.5" id="1Wd-LZ-HqM"/>
