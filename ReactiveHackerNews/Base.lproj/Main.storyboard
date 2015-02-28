@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -76,9 +76,11 @@
                     </view>
                     <connections>
                         <outlet property="aboutButton" destination="cf0-xi-gZq" id="2bJ-fm-k5i"/>
+                        <outlet property="bottomConstraint" destination="LrO-Ao-8Ez" id="s1a-we-pXD"/>
                         <outlet property="doneLabel" destination="ftA-Dw-yoK" id="PIv-Cb-0xW"/>
                         <outlet property="refreshButton" destination="Pxs-2q-fNT" id="bxG-r5-Jpk"/>
                         <outlet property="swipeableView" destination="f4S-GZ-xim" id="NNg-cF-iHQ"/>
+                        <outlet property="topConstraint" destination="rXH-Jl-eOU" id="SNg-z3-GyR"/>
                         <segue destination="7sv-Ea-AUj" kind="presentation" identifier="about" id="hDv-lg-x2g"/>
                         <segue destination="Ccd-MM-8nd" kind="presentation" identifier="story" id="lfo-QK-CVj"/>
                     </connections>

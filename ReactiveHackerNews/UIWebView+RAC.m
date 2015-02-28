@@ -85,10 +85,12 @@
     if (signal) return signal;
     
     @weakify(self);
-    signal = [[self.delegateObject rac_signalForSelector:@selector(webViewDidFinishLoad:) fromProtocol:@protocol(UIWebViewDelegate)] map:^id(id value) {
+    
+    signal = [[RACSignal combineLatest:@[[self rac_didStartLoad], [self rac_didFinishLoad]]] map:^id(id value) {
         @strongify(self);
         return @(self.canGoBack);
     }];
+    
     objc_setAssociatedObject(self, _cmd, signal, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     return signal;
 }
@@ -98,7 +100,7 @@
     if (signal) return signal;
     
     @weakify(self);
-    signal = [[self.delegateObject rac_signalForSelector:@selector(webViewDidFinishLoad:) fromProtocol:@protocol(UIWebViewDelegate)] map:^id(id value) {
+    signal = [[RACSignal combineLatest:@[[self rac_didStartLoad], [self rac_didFinishLoad]]] map:^id(id value) {
         @strongify(self);
         return @(self.canGoForward);
     }];

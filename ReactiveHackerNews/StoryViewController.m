@@ -39,6 +39,7 @@
     
     UIBarButtonItem *left = [[UIBarButtonItem alloc] init];
     left.image = [UIImage imageNamed:@"left"];
+    left.enabled = NO;
     left.rac_command = [[RACCommand alloc] initWithEnabled:self.webView.rac_canGoBack
                                                signalBlock:^RACSignal *(id input) {
                                                    @strongify(self);
@@ -48,6 +49,7 @@
     
     UIBarButtonItem *right = [[UIBarButtonItem alloc] init];
     right.image = [UIImage imageNamed:@"right"];
+    right.enabled = NO;
     right.rac_command = [[RACCommand alloc] initWithEnabled:self.webView.rac_canGoForward
                                                 signalBlock:^RACSignal *(id input) {
                                                     @strongify(self);
@@ -57,6 +59,7 @@
     
     UIBarButtonItem *share = [[UIBarButtonItem alloc] init];
     share.image = [UIImage imageNamed:@"share"];
+    share.enabled = NO;
     share.rac_command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
         @strongify(self);
 
@@ -81,8 +84,14 @@
     self.toolBar.tintColor = [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:1.0/255.0 alpha:1.0];
     self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:1.0/255.0 alpha:1.0];
 
+    [self.webView.rac_didStartLoad subscribeNext:^(id x) {
+        share.enabled = NO;
+        left.enabled = NO;
+        right.enabled = NO;
+    }];
     [self.webView.rac_didFinishLoad subscribeNext:^(id x) {
         @strongify(self);
+        share.enabled = YES;
         self.title = [self.webView stringByEvaluatingJavaScriptFromString:@"document.title"];
     }];
     

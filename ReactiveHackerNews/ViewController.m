@@ -22,6 +22,8 @@
 
 @interface ViewController () <ZLSwipeableViewDataSource, ZLSwipeableViewDelegate>
 @property (nonatomic, weak) IBOutlet ZLSwipeableView *swipeableView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint *topConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint *bottomConstraint;
 @property (nonatomic, strong) ViewModel *viewModel;
 @property (nonatomic, strong) NSMutableArray *topStories;
 @property (nonatomic, weak) IBOutlet UIButton *refreshButton;
@@ -97,6 +99,8 @@
 - (void) viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
 
+    self.topConstraint.constant = CGRectGetHeight(self.view.frame) / 7;
+    self.bottomConstraint.constant = CGRectGetHeight(self.view.frame) / 7;
     self.swipeableView.dataSource = self;
 
 }
