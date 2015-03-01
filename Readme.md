@@ -7,5 +7,7 @@ Hacker News app implemented with Reactive Cocoa.
 
 <img src="http://f.cl.ly/items/11201v0E2h1r3d1P2G3X/Screenshot%203.png"/>
 
+Preview video:
+
 [![Preview video](http://img.youtube.com/vi/tbXgBS-AytI/0.jpg)](http://www.youube.com/watch?v=tbXgBS-AytI)
 
