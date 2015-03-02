@@ -86,10 +86,13 @@
     
     @weakify(self);
     
-    signal = [[RACSignal combineLatest:@[[self rac_didStartLoad], [self rac_didFinishLoad]]] map:^id(id value) {
+    // disable canGoBack by default
+    RACSignal *falseSignal = [RACSignal return:@(NO)];
+    RACSignal *triggerSignal = [[RACSignal combineLatest:@[[self rac_didStartLoad], [self rac_didFinishLoad]]] map:^id(id value) {
         @strongify(self);
         return @(self.canGoBack);
     }];
+    signal = [RACSignal merge:@[falseSignal, triggerSignal]];
     
     objc_setAssociatedObject(self, _cmd, signal, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     return signal;
@@ -100,10 +103,14 @@
     if (signal) return signal;
     
     @weakify(self);
-    signal = [[RACSignal combineLatest:@[[self rac_didStartLoad], [self rac_didFinishLoad]]] map:^id(id value) {
+    // disable canGoForward by default
+    RACSignal *falseSignal = [RACSignal return:@(NO)];
+    RACSignal *triggerSignal = [[RACSignal combineLatest:@[[self rac_didStartLoad], [self rac_didFinishLoad]]] map:^id(id value) {
         @strongify(self);
         return @(self.canGoForward);
     }];
+    signal = [RACSignal merge:@[falseSignal, triggerSignal]];
+    
     objc_setAssociatedObject(self, _cmd, signal, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     return signal;
 }
