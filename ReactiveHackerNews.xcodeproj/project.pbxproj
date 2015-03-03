@@ -25,6 +25,13 @@
 		805115EF1A8B10BC00E31650 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115EE1A8B10BC00E31650 /* StoryViewController.m */; };
 		8056EE061A899905007FDB85 /* HNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056EE051A899905007FDB85 /* HNClient.m */; };
 		80598CB01A9F169D000B03CE /* UIWebView+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598CAF1A9F169D000B03CE /* UIWebView+RAC.m */; };
+		80B8C91E1AA566E0008E5FCE /* StoryViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C91D1AA566E0008E5FCE /* StoryViewModelTests.m */; };
+		80B8C91F1AA5674F008E5FCE /* StoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115E21A8A441600E31650 /* StoryViewModel.m */; };
+		80B8C9201AA56B91008E5FCE /* HNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056EE051A899905007FDB85 /* HNClient.m */; };
+		80B8C9211AA56B9D008E5FCE /* ReadabilityClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115E51A8A4E8100E31650 /* ReadabilityClient.m */; };
+		80BAE0D11AA1ED8A004F4242 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BAE0CF1AA1ED8A004F4242 /* Crashlytics.framework */; };
+		80BAE0D21AA1ED8A004F4242 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BAE0D01AA1ED8A004F4242 /* Fabric.framework */; };
+		E3685A1C46E11A7FBC1FFAB2 /* libPods-ReactiveHackerNewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B85FC12ECC6234B549F201F /* libPods-ReactiveHackerNewsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,9 @@
 
 /* Begin PBXFileReference section */
 		1D8AEE4C6CD366FDF968012A /* libPods-ReactiveHackerNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveHackerNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6921C0EB41B1EBEDE6087E /* Pods-ReactiveHackerNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47AF55FF918D3C2186D3604D /* Pods-ReactiveHackerNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNews/Pods-ReactiveHackerNews.release.xcconfig"; sourceTree = "<group>"; };
+		4B85FC12ECC6234B549F201F /* libPods-ReactiveHackerNewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveHackerNewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74428AF308B1AF9ABC26B7C6 /* Pods-ReactiveHackerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNews/Pods-ReactiveHackerNews.debug.xcconfig"; sourceTree = "<group>"; };
 		804853E41A89166D008C0D75 /* ReactiveHackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveHackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804853E81A89166D008C0D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +82,10 @@
 		8056EE051A899905007FDB85 /* HNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNClient.m; sourceTree = "<group>"; };
 		80598CAE1A9F169D000B03CE /* UIWebView+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+RAC.h"; sourceTree = "<group>"; };
 		80598CAF1A9F169D000B03CE /* UIWebView+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RAC.m"; sourceTree = "<group>"; };
+		80B8C91D1AA566E0008E5FCE /* StoryViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewModelTests.m; sourceTree = "<group>"; };
+		80BAE0CF1AA1ED8A004F4242 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		80BAE0D01AA1ED8A004F4242 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		CCBA16BFBFC5987EF152A622 /* Pods-ReactiveHackerNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BAE0D11AA1ED8A004F4242 /* Crashlytics.framework in Frameworks */,
 				2FF612C6E2B5A50B9DB2E4FB /* libPods-ReactiveHackerNews.a in Frameworks */,
+				80BAE0D21AA1ED8A004F4242 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3685A1C46E11A7FBC1FFAB2 /* libPods-ReactiveHackerNewsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +113,10 @@
 		5529945272E0F4BACA05EC02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80BAE0CF1AA1ED8A004F4242 /* Crashlytics.framework */,
+				80BAE0D01AA1ED8A004F4242 /* Fabric.framework */,
 				1D8AEE4C6CD366FDF968012A /* libPods-ReactiveHackerNews.a */,
+				4B85FC12ECC6234B549F201F /* libPods-ReactiveHackerNewsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,6 +177,7 @@
 		804854001A89166D008C0D75 /* ReactiveHackerNewsTests */ = {
 			isa = PBXGroup;
 			children = (
+				80B8C91D1AA566E0008E5FCE /* StoryViewModelTests.m */,
 				804854031A89166D008C0D75 /* ReactiveHackerNewsTests.m */,
 				804854011A89166D008C0D75 /* Supporting Files */,
 			);
@@ -211,6 +231,8 @@
 			children = (
 				74428AF308B1AF9ABC26B7C6 /* Pods-ReactiveHackerNews.debug.xcconfig */,
 				47AF55FF918D3C2186D3604D /* Pods-ReactiveHackerNews.release.xcconfig */,
+				3C6921C0EB41B1EBEDE6087E /* Pods-ReactiveHackerNewsTests.debug.xcconfig */,
+				CCBA16BFBFC5987EF152A622 /* Pods-ReactiveHackerNewsTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -227,6 +249,7 @@
 				804853E11A89166D008C0D75 /* Frameworks */,
 				804853E21A89166D008C0D75 /* Resources */,
 				D74F195779BD32CE5B39AA37 /* Copy Pods Resources */,
+				80BAE0CE1AA1ED75004F4242 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -241,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8048540A1A89166D008C0D75 /* Build configuration list for PBXNativeTarget "ReactiveHackerNewsTests" */;
 			buildPhases = (
+				8ED0B309493E3FF8C77F9AE7 /* Check Pods Manifest.lock */,
 				804853F91A89166D008C0D75 /* Sources */,
 				804853FA1A89166D008C0D75 /* Frameworks */,
 				804853FB1A89166D008C0D75 /* Resources */,
+				3FF317E9C22466FD14838CC1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +339,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3FF317E9C22466FD14838CC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BAE0CE1AA1ED75004F4242 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 3a4e9829064aea01fce983e8a8284f5b93965fb0 abb838497d960700471223f8fb0f1e36515bfa27da3bc8d6ac30d0db20837eed";
+		};
+		8ED0B309493E3FF8C77F9AE7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		D74F195779BD32CE5B39AA37 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +438,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B8C9211AA56B9D008E5FCE /* ReadabilityClient.m in Sources */,
+				80B8C9201AA56B91008E5FCE /* HNClient.m in Sources */,
+				80B8C91F1AA5674F008E5FCE /* StoryViewModel.m in Sources */,
+				80B8C91E1AA566E0008E5FCE /* StoryViewModelTests.m in Sources */,
 				804854041A89166D008C0D75 /* ReactiveHackerNewsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +560,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ReactiveHackerNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -503,6 +579,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ReactiveHackerNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -514,6 +594,7 @@
 		};
 		8048540B1A89166D008C0D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6921C0EB41B1EBEDE6087E /* Pods-ReactiveHackerNewsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -533,6 +614,7 @@
 		};
 		8048540C1A89166D008C0D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBA16BFBFC5987EF152A622 /* Pods-ReactiveHackerNewsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

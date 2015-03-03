@@ -18,6 +18,6 @@ target "ReactiveHackerNews" do
 end
 
 target "ReactiveHackerNewsTests" do
-
+	pod 'OCMock'
 end
 
