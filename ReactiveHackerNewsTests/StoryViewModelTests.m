@@ -30,9 +30,11 @@
 }
 
 - (void)testNormalReturn {
+    // Create mock objects for API clients
     id HNClientMock = OCMPartialMock([HNClient sharedClient]);
     id RAClientMock = OCMPartialMock([ReadabilityClient sharedClient]);
     
+    // Stub the API responses
     NSDictionary *HNRtn = @{@"by":@"andrewbarba",
                             @"descendants":@12,
                             @"id":@9135641,
@@ -64,14 +66,18 @@
                             @"rendered_pages": @1};
     OCMStub([RAClientMock contentForUrl:[OCMArg any]]).andReturn([RACSignal return:RARtn]);
     
+    // Setup the expectation for async test
     XCTestExpectation *expectation = [self expectationWithDescription:@"Content is loaded"];
     StoryViewModel *viewModel = [[StoryViewModel alloc] initWithIdentity:1000];
     
     [[viewModel.loadContentCommand.executionSignals flatten]
      subscribeNext:^(id x) {
-        XCTAssert(viewModel.content, @"Readability content is not set");
-        XCTAssert(([viewModel.content isEqualToString:@"<<excerpt>>"]), @"Readability response is not expected");
-        [expectation fulfill];
+         // Verify the execution results
+         XCTAssert(viewModel.content, @"Readability content is not set");
+         XCTAssert(([viewModel.content isEqualToString:@"<<excerpt>>"]), @"Readability response is not expected");
+         
+         // Since loadContentCommand is the last to be called, we need to fulfill the expectation
+         [expectation fulfill];
     }];
     
     [[viewModel.loadStoryCommand execute:nil] subscribeNext:^(id x) {
@@ -83,6 +89,7 @@
         XCTFail(@"Cannot be error");
     }];
     
+    // Wait for 5 seconds timeout to validate async code
     [self waitForExpectationsWithTimeout:5.0 handler:nil];
 }
 
