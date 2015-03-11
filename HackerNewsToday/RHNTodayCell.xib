@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
@@ -15,7 +15,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6q-pP-DY5">
-                        <rect key="frame" x="20" y="0.0" width="300" height="46"/>
+                        <rect key="frame" x="8" y="0.0" width="304" height="46"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="46" id="Fa9-Cf-bYE"/>
                         </constraints>
@@ -58,7 +58,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2p-Gl-NoJ">
-                        <rect key="frame" x="20" y="49" width="127" height="16"/>
+                        <rect key="frame" x="8" y="49" width="127" height="16"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="127" id="Tft-gx-sgl"/>
                             <constraint firstAttribute="height" constant="16" id="e2h-Hw-NiM"/>
@@ -70,8 +70,11 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="VdP-eB-uKA" secondAttribute="bottom" constant="5" id="0mJ-2H-szR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="t6q-pP-DY5" secondAttribute="trailing" id="641-xD-vJk"/>
                     <constraint firstItem="Y6w-DE-jgM" firstAttribute="leading" secondItem="lns-Gn-Amq" secondAttribute="trailing" constant="2" id="7aa-hP-xrD"/>
+                    <constraint firstItem="t6q-pP-DY5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Abb-gG-sOi"/>
                     <constraint firstAttribute="bottom" secondItem="lns-Gn-Amq" secondAttribute="bottom" constant="5" id="BzV-fR-0pG"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="t6q-pP-DY5" secondAttribute="trailing" id="Md0-ZH-MbO"/>
                     <constraint firstItem="t6q-pP-DY5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="Mgw-Hx-lMj"/>
                     <constraint firstAttribute="bottom" secondItem="D2p-Gl-NoJ" secondAttribute="bottom" constant="5" id="OS5-Z8-GMB"/>
                     <constraint firstAttribute="trailingMargin" secondItem="t6q-pP-DY5" secondAttribute="trailing" constant="-8" id="Omj-DB-rzr"/>
@@ -81,18 +84,25 @@
                     <constraint firstAttribute="bottom" secondItem="tZZ-dE-SEI" secondAttribute="bottom" constant="5" id="eoj-YR-uXp"/>
                     <constraint firstItem="t6q-pP-DY5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gxA-rJ-Hjv"/>
                     <constraint firstItem="t6q-pP-DY5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="hJf-h1-fTO"/>
-                    <constraint firstItem="t6q-pP-DY5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="kPE-0Y-0f3"/>
+                    <constraint firstItem="t6q-pP-DY5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kPE-0Y-0f3"/>
                     <constraint firstAttribute="bottomMargin" secondItem="lns-Gn-Amq" secondAttribute="bottom" constant="-7.5" id="loZ-ry-Wj7"/>
                     <constraint firstItem="t6q-pP-DY5" firstAttribute="leading" secondItem="D2p-Gl-NoJ" secondAttribute="leading" id="qlD-TJ-bF9"/>
+                    <constraint firstItem="t6q-pP-DY5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="t9E-ff-51L"/>
                     <constraint firstAttribute="trailingMargin" secondItem="lns-Gn-Amq" secondAttribute="trailing" constant="70" id="tE0-xR-bwv"/>
                     <constraint firstItem="tZZ-dE-SEI" firstAttribute="leading" secondItem="lns-Gn-Amq" secondAttribute="trailing" constant="30" id="tYD-cR-xkV"/>
+                    <constraint firstItem="t6q-pP-DY5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="vYr-NR-k6C"/>
                     <constraint firstAttribute="bottomMargin" secondItem="D2p-Gl-NoJ" secondAttribute="bottom" constant="-7.5" id="xPB-3n-IqN"/>
                 </constraints>
                 <variation key="default">
                     <mask key="constraints">
+                        <exclude reference="641-xD-vJk"/>
                         <exclude reference="Mgw-Hx-lMj"/>
                         <exclude reference="Omj-DB-rzr"/>
+                        <exclude reference="coF-vy-2pv"/>
                         <exclude reference="hJf-h1-fTO"/>
+                        <exclude reference="kPE-0Y-0f3"/>
+                        <exclude reference="t9E-ff-51L"/>
+                        <exclude reference="vYr-NR-k6C"/>
                         <exclude reference="xPB-3n-IqN"/>
                         <exclude reference="loZ-ry-Wj7"/>
                     </mask>

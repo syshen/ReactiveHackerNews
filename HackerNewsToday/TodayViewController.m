@@ -26,12 +26,11 @@ static CGFloat kCellHeight = 70.0f;
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSLog(@"viewDidLoad");
-    
     self.preferredContentSize = CGSizeMake(0, 0);
     [self loadArchivedData];
     self.preferredContentSize = CGSizeMake(0, self.stories.count * kCellHeight);
     
+    self.tableView.separatorInset = UIEdgeInsetsZero;
     [self.tableView registerNib:[UINib nibWithNibName:@"RHNTodayCell" bundle:nil] forCellReuseIdentifier:@"RHNTodayCell"];
 }
 
@@ -76,10 +75,11 @@ static CGFloat kCellHeight = 70.0f;
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     NSDictionary *story = self.stories[indexPath.row];
     [self.extensionContext openURL:[NSURL URLWithString:story[@"url"]] completionHandler:nil];
+
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 
@@ -107,7 +107,6 @@ static CGFloat kCellHeight = 70.0f;
     [[[HNClient sharedClient] topStories] subscribeNext:^(NSArray *topStories) {
         
         @strongify(self);
-        self.stories = [NSMutableArray array];
         NSArray *top5 = [topStories subarrayWithRange:NSMakeRange(0, 5)];
         NSMutableArray *storySignals = [NSMutableArray array];
         NSInteger index = 0;
@@ -132,7 +131,7 @@ static CGFloat kCellHeight = 70.0f;
                 @strongify(self);
                 self.errorPrompt.hidden = YES;
                 [self loadArchivedData];
-                self.preferredContentSize = CGSizeMake(0, self.stories.count * kCellHeight);
+                self.preferredContentSize = CGSizeMake(0, storySignals.count * kCellHeight);
                 [self.tableView reloadData];
                 completionHandler(NCUpdateResultNewData);
             } error:^(NSError *error) {
