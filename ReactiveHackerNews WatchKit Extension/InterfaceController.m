@@ -34,13 +34,13 @@
 
     @weakify(self);
     [[[HNClient sharedClient] topStories] subscribeNext:^(NSArray *top100) {
-        NSArray *top5 = [top100 subarrayWithRange:NSMakeRange(0, 5)];
+        NSArray *top10 = [top100 subarrayWithRange:NSMakeRange(0, 10)];
     
         @strongify(self);
         self.stories = [NSMutableArray array];
         
         NSMutableArray *storySignals = [NSMutableArray array];
-        for (NSNumber *storyId in top5) {
+        for (NSNumber *storyId in top10) {
             [storySignals addObject:[[[HNClient sharedClient] itemWithIdentity:storyId.integerValue] map:^id(NSDictionary *response) {
                 @strongify(self);
                 [self.stories addObject:response];
@@ -52,7 +52,7 @@
         
         if (storySignals.count) {
             self.fetchSignal = [RACSignal combineLatest:storySignals];
-            [self.fetchSignal  subscribeNext:^(id x) {
+            [[self.fetchSignal deliverOnMainThread] subscribeNext:^(id x) {
                 @strongify(self);
                 [self reloadTableView];
             } error:^(NSError *error) {

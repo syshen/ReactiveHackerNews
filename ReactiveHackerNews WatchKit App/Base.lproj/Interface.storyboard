@@ -12,13 +12,13 @@
                     <items>
                         <table alignment="left" id="lK9-4B-jun">
                             <items>
-                                <tableRow id="gxo-6T-PZa" customClass="NewsRowController">
-                                    <group key="rootItem" width="1" height="83.5" alignment="left" layout="vertical" id="U56-Qu-Kw2">
+                                <tableRow identifier="default" selectable="NO" id="gxo-6T-PZa" customClass="NewsRowController">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="U56-Qu-Kw2">
                                         <items>
-                                            <label width="126" height="51" alignment="left" numberOfLines="3" id="Ya9-16-Mkc">
-                                                <fontDescription key="font" type="system" pointSize="12"/>
+                                            <label alignment="left" numberOfLines="0" id="Ya9-16-Mkc">
+                                                <fontDescription key="font" type="system" pointSize="18"/>
                                             </label>
-                                            <group width="1" height="26" alignment="left" id="MDB-IF-QRV">
+                                            <group width="1" height="26" alignment="left" verticalAlignment="bottom" id="MDB-IF-QRV">
                                                 <items>
                                                     <imageView width="14" height="1" alignment="left" image="score" contentMode="scaleAspectFit" id="RDc-Qt-JpV"/>
                                                     <label width="40" height="1" alignment="left" id="EyO-Om-nXg">

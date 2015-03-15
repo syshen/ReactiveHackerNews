@@ -32,7 +32,9 @@
     self.itemIdentity = identity;
     
     @weakify(self);
-    [RACObserve(self, url) subscribeNext:^(id x) {
+    [[RACObserve(self, url) filter:^BOOL(NSString *url) {
+        return url!=nil;
+    }] subscribeNext:^(id x) {
         @strongify(self);
         [self.loadContentCommand execute:nil];
     }];
@@ -47,20 +49,30 @@
     @weakify(self);
     _loadStoryCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
         @strongify(self);
-        return [[[HNClient sharedClient] itemWithIdentity:self.itemIdentity] map:^id(NSDictionary* response) {
+        return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
             @strongify(self);
-
-            self.title = response[@"title"];
-            NSInteger timestamp = [response[@"time"] integerValue];
-            NSDate *date = [NSDate dateWithTimeIntervalSince1970:timestamp];
-            self.date = [NSString  stringWithFormat:@"%@", [[self dateFormatter] stringFromDate:date]];
-            self.commentCount = [response[@"kids"] count];
-            self.score = [response[@"score"] integerValue];
-            self.author = [NSString stringWithFormat:@"by %@ at %@",response[@"by"], self.date];
-            self.url = response[@"url"];
+           
+            RACDisposable *disposable = [[[HNClient sharedClient] itemWithIdentity:self.itemIdentity]
+                                         subscribeNext:^(NSDictionary * response) {
+                                             @strongify(self);
+                                             
+                                             self.title = response[@"title"];
+                                             NSInteger timestamp = [response[@"time"] integerValue];
+                                             NSDate *date = [NSDate dateWithTimeIntervalSince1970:timestamp];
+                                             self.date = [NSString  stringWithFormat:@"%@", [[self dateFormatter] stringFromDate:date]];
+                                             self.commentCount = [response[@"kids"] count];
+                                             self.score = [response[@"score"] integerValue];
+                                             self.author = [NSString stringWithFormat:@"by %@ at %@",response[@"by"], self.date];
+                                             self.url = response[@"url"];
+                                             
+                                             [subscriber sendNext:@(YES)];
+                                             [subscriber sendCompleted];
+                
+                                         }];
             
-            return [RACSignal empty];
+            return disposable;
         }];
+        
     }];
     return _loadStoryCommand;
 }

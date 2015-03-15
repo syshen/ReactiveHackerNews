@@ -9,8 +9,8 @@
 #import "CardView.h"
 @interface CardView()
 @property (nonatomic, strong) StoryViewModel *viewModel;
-@property (nonatomic, weak) IBOutlet UIImageView *errorImage;
 @property (nonatomic, weak) IBOutlet UILabel *errorMessage;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView *loadingIndicator;
 @end
 @implementation CardView
 
@@ -25,9 +25,7 @@
     // Corner Radius
     self.layer.cornerRadius = 10.0;
     
-    self.errorImage.layer.cornerRadius = 10.0f;
-    self.errorImage.backgroundColor = [UIColor colorWithWhite:0.9 alpha:0.9];
-    self.errorMessage.textColor = [UIColor colorWithWhite:0.9 alpha:0.9];
+    self.errorMessage.textColor = [UIColor colorWithWhite:0.8 alpha:0.9];
     
 }
 
@@ -36,7 +34,7 @@
  
     @weakify(self);
 
-    RAC(self.titleLabel, font) = [[RACObserve(self.viewModel, title) filter:^BOOL(id value) {
+    RAC(self.titleLabel, font) = [[[RACObserve(self.viewModel, title) filter:^BOOL(id value) {
         return value != nil;
     }] map:^id(NSString *title) {
         CGSize size = [title sizeWithAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"AvenirNext-Bold" size:20]}];
@@ -44,11 +42,11 @@
             return [UIFont fontWithName:@"AvenirNext-Bold" size:16];
         else
             return [UIFont fontWithName:@"AvenirNext-Bold" size:20];
-    }];
+    }] deliverOnMainThread];
     
-    [[[RACObserve(self.viewModel, title) deliverOnMainThread] filter:^BOOL(id value) {
+    [[[RACObserve(self.viewModel, title) filter:^BOOL(id value) {
         return value!=nil;
-    }] subscribeNext:^(NSString *title) {
+    }] deliverOnMainThread] subscribeNext:^(NSString *title) {
         @strongify(self);
         self.titleLabel.text = title;
     }];
@@ -64,15 +62,28 @@
     }] deliverOnMainThread];
     RAC(self.urlLabel, text) = [RACObserve(self.viewModel, url) deliverOnMainThread];
     
-    [[self.viewModel.loadContentCommand errors] subscribeNext:^(id x) {
+    [[self.viewModel.loadContentCommand.executing deliverOnMainThread]
+     subscribeNext:^(NSNumber *loading) {
         @strongify(self);
+        if ([loading boolValue])
+            [self.loadingIndicator startAnimating];
+        else
+            [self.loadingIndicator stopAnimating];
+    }];
+    [[[self.viewModel.loadContentCommand errors] deliverOnMainThread]
+     subscribeNext:^(id x) {
+        @strongify(self);
+        [self.loadingIndicator stopAnimating];
         if (x) {
-            self.errorImage.hidden = NO;
             self.errorMessage.hidden = NO;
         }
     }];
     
-    [self.viewModel.loadStoryCommand execute:nil];
+    [[[self.viewModel.loadStoryCommand execute:nil] deliverOnMainThread]
+     subscribeNext:^(id x) {
+        @strongify(self);
+        [self.loadingIndicator stopAnimating];
+    }];
 
 }
 

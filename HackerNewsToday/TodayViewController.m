@@ -127,7 +127,7 @@ static CGFloat kCellHeight = 70.0f;
         
         if (storySignals.count) {
             self.fetchSignal = [RACSignal combineLatest:storySignals];
-            [self.fetchSignal  subscribeNext:^(id x) {
+            [[self.fetchSignal  deliverOnMainThread] subscribeNext:^(id x) {
                 @strongify(self);
                 self.errorPrompt.hidden = YES;
                 [self loadArchivedData];
