@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D98g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -92,20 +92,20 @@
         <scene sceneID="iRo-67-kpJ">
             <objects>
                 <tableViewController title="About" id="jwB-yA-OVn" customClass="AboutTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="nxF-XI-Zmx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="nxF-XI-Zmx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="azs-bn-9AS">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="600" id="z7H-V3-7hT">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="450" id="z7H-V3-7hT">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z7H-V3-7hT" id="TOR-3e-SBt">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa5-fx-isC">
-                                                    <rect key="frame" x="18" y="48" width="2487" height="85"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa5-fx-isC">
+                                                    <rect key="frame" x="18" y="48" width="564" height="85"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="85" id="qUA-Te-1mu"/>
                                                     </constraints>
@@ -154,6 +154,23 @@
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="5cP-hA-5be" rowHeight="60" style="IBUITableViewCellStyleDefault" id="Nmr-tT-MLC">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nmr-tT-MLC" id="ZKJ-cd-82e">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Today Widget" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5cP-hA-5be">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZH8-c7-NGr" kind="show" id="vYg-B6-tIc"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -170,10 +187,115 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1000"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="duj-1S-sr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2024" y="243.75"/>
+            <point key="canvasLocation" x="2024" y="451"/>
+        </scene>
+        <!--Today Widget-->
+        <scene sceneID="Zwu-ia-o2J">
+            <objects>
+                <viewController title="Today Widget" id="ZH8-c7-NGr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KgY-TO-IpW"/>
+                        <viewControllerLayoutGuide type="bottom" id="GjL-Dr-1eP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EFK-cs-DyG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-down" translatesAutoresizingMaskIntoConstraints="NO" id="CQf-Q2-C0v">
+                                <rect key="frame" x="275" y="72" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Lcx-bT-rX4"/>
+                                    <constraint firstAttribute="width" constant="50" id="y2R-i6-uI2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pull down the today view" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Onc-d7-Agm">
+                                <rect key="frame" x="175" y="132" width="250" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="W2I-Io-VBn"/>
+                                    <constraint firstAttribute="height" constant="25" id="uLF-4Z-yzE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Edit&quot; your today widgets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CD-oo-u7y">
+                                <rect key="frame" x="179" y="165" width="242" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="WE9-rW-9Gl"/>
+                                    <constraint firstAttribute="width" constant="242" id="wNf-FS-Hu3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="today-widget1.png" translatesAutoresizingMaskIntoConstraints="NO" id="4TY-al-H8k">
+                                <rect key="frame" x="180" y="198" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="qRc-RG-hNe"/>
+                                    <constraint firstAttribute="height" constant="128" id="xkW-iO-3nV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap     button to add &quot;Hacker News Today&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ep1-44-bH7">
+                                <rect key="frame" x="150" y="334" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="WVf-uA-yHz"/>
+                                    <constraint firstAttribute="width" constant="300" id="dfr-cx-t3q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="today-widget2.png" translatesAutoresizingMaskIntoConstraints="NO" id="onE-NB-4U1">
+                                <rect key="frame" x="181" y="384" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="fc2-Ue-LCJ"/>
+                                    <constraint firstAttribute="height" constant="128" id="fzc-pu-4ge"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-button.png" translatesAutoresizingMaskIntoConstraints="NO" id="8zA-Od-EI6">
+                                <rect key="frame" x="187" y="338" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="KC9-bp-hTo"/>
+                                    <constraint firstAttribute="height" constant="20" id="r8s-BW-Pbr"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.40000000000000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="onE-NB-4U1" secondAttribute="centerX" constant="-1" id="30G-Ey-8F9"/>
+                            <constraint firstItem="4TY-al-H8k" firstAttribute="top" secondItem="0CD-oo-u7y" secondAttribute="bottom" constant="8" id="5zM-sh-oRr"/>
+                            <constraint firstItem="onE-NB-4U1" firstAttribute="top" secondItem="8zA-Od-EI6" secondAttribute="bottom" constant="26" id="8hZ-Wq-Xzt"/>
+                            <constraint firstAttribute="centerX" secondItem="4TY-al-H8k" secondAttribute="centerX" id="C0r-uS-vc1"/>
+                            <constraint firstItem="0CD-oo-u7y" firstAttribute="top" secondItem="Onc-d7-Agm" secondAttribute="bottom" constant="8" id="KNY-z2-gDI"/>
+                            <constraint firstAttribute="centerX" secondItem="ep1-44-bH7" secondAttribute="centerX" id="RiU-aF-man"/>
+                            <constraint firstItem="CQf-Q2-C0v" firstAttribute="top" secondItem="KgY-TO-IpW" secondAttribute="bottom" constant="8" id="TbO-Vd-J4I"/>
+                            <constraint firstAttribute="centerX" secondItem="0CD-oo-u7y" secondAttribute="centerX" id="UmN-E0-fGe"/>
+                            <constraint firstItem="ep1-44-bH7" firstAttribute="centerY" secondItem="8zA-Od-EI6" secondAttribute="centerY" constant="11" id="Wym-mg-f5L"/>
+                            <constraint firstAttribute="centerX" secondItem="Onc-d7-Agm" secondAttribute="centerX" id="XFC-E8-QbJ"/>
+                            <constraint firstItem="ep1-44-bH7" firstAttribute="top" secondItem="4TY-al-H8k" secondAttribute="bottom" constant="8" id="bS0-yn-7cx"/>
+                            <constraint firstItem="ep1-44-bH7" firstAttribute="leading" secondItem="8zA-Od-EI6" secondAttribute="leading" constant="-37" id="bcN-s6-kwZ"/>
+                            <constraint firstAttribute="centerX" secondItem="CQf-Q2-C0v" secondAttribute="centerX" id="fe8-Py-uRv"/>
+                            <constraint firstItem="Onc-d7-Agm" firstAttribute="top" secondItem="CQf-Q2-C0v" secondAttribute="bottom" constant="10" id="m76-Lb-6Uk"/>
+                            <constraint firstItem="4TY-al-H8k" firstAttribute="top" secondItem="KgY-TO-IpW" secondAttribute="bottom" constant="164" id="sGN-ue-cRA"/>
+                            <constraint firstItem="0CD-oo-u7y" firstAttribute="top" secondItem="4TY-al-H8k" secondAttribute="top" constant="-33" id="zQf-Ls-t25"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="zQf-Ls-t25"/>
+                                <exclude reference="sGN-ue-cRA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AiZ-hW-ULT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2759" y="239.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NTQ-kk-2p4">
@@ -242,6 +364,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9wj-Pj-YA2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="0.40000000000000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="1" green="0.40000000000000002" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
@@ -256,7 +379,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="add-button.png" width="41" height="41"/>
+        <image name="arrow-down" width="76" height="73"/>
         <image name="info" width="14" height="14"/>
         <image name="refresh" width="14" height="15"/>
+        <image name="today-widget1.png" width="640" height="321"/>
+        <image name="today-widget2.png" width="640" height="252"/>
     </resources>
 </document>

@@ -1,2780 +1,1171 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>000B958EC7A65107C26441AA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HackerNewsToday/Pods-HackerNewsToday-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>047F52BA16389685D09FC002</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ReactiveHackerNews WatchKit Extension.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ReactiveHackerNews WatchKit Extension/Pods-ReactiveHackerNews WatchKit Extension.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08D83E3CD17C46367FC5EDC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ReactiveHackerNews WatchKit Extension.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ReactiveHackerNews WatchKit Extension/Pods-ReactiveHackerNews WatchKit Extension.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>112EAD756B1C78B77E01BE5C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ReactiveHackerNews WatchKit Extension.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1D8AEE4C6CD366FDF968012A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ReactiveHackerNews.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2D2405AD412DEF1E6F9D5231</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-HackerNewsToday.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2FF612C6E2B5A50B9DB2E4FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D8AEE4C6CD366FDF968012A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C6921C0EB41B1EBEDE6087E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ReactiveHackerNewsTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3FF317E9C22466FD14838CC1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>440DFCE7CE9566B314AA5C95</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D2405AD412DEF1E6F9D5231</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>47AF55FF918D3C2186D3604D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ReactiveHackerNews.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ReactiveHackerNews/Pods-ReactiveHackerNews.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B34C18DC80E28D1BFACD65C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveHackerNews WatchKit Extension/Pods-ReactiveHackerNews WatchKit Extension-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>4B85FC12ECC6234B549F201F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ReactiveHackerNewsTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5529945272E0F4BACA05EC02</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>80BAE0CF1AA1ED8A004F4242</string>
-				<string>80BAE0D01AA1ED8A004F4242</string>
-				<string>1D8AEE4C6CD366FDF968012A</string>
-				<string>4B85FC12ECC6234B549F201F</string>
-				<string>8049BB931AABF451002F1A83</string>
-				<string>2D2405AD412DEF1E6F9D5231</string>
-				<string>112EAD756B1C78B77E01BE5C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74428AF308B1AF9ABC26B7C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ReactiveHackerNews.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ReactiveHackerNews/Pods-ReactiveHackerNews.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7BE1AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8028C7E61AAEF8BF00A7AB62</string>
-				<string>8028C7CC1AAEF64B00A7AB62</string>
-				<string>8028C7C91AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8028C7BF1AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B08E59343F1E2F99E14A6A20</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8028C7C01AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8028C7D21AAEF64B00A7AB62</string>
-				<string>8028C7CE1AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8028C7C11AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8028C7E51AAEF64B00A7AB62</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F68A441E593048018DA4DCC0</string>
-				<string>8028C7BE1AAEF64B00A7AB62</string>
-				<string>8028C7BF1AAEF64B00A7AB62</string>
-				<string>8028C7C01AAEF64B00A7AB62</string>
-				<string>4B34C18DC80E28D1BFACD65C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8028C7D41AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ReactiveHackerNews WatchKit Extension</string>
-			<key>productName</key>
-			<string>ReactiveHackerNews WatchKit Extension</string>
-			<key>productReference</key>
-			<string>8028C7C21AAEF64B00A7AB62</string>
-			<key>productType</key>
-			<string>com.apple.product-type.watchkit-extension</string>
-		</dict>
-		<key>8028C7C21AAEF64B00A7AB62</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.app-extension</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ReactiveHackerNews WatchKit Extension.appex</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8028C7C31AAEF64B00A7AB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8028C7C71AAEF64B00A7AB62</string>
-				<string>8028C7C81AAEF64B00A7AB62</string>
-				<string>8028C7CA1AAEF64B00A7AB62</string>
-				<string>8028C7CB1AAEF64B00A7AB62</string>
-				<string>8028C7CD1AAEF64B00A7AB62</string>
-				<string>8028C7C41AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ReactiveHackerNews WatchKit Extension</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7C41AAEF64B00A7AB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8028C7C51AAEF64B00A7AB62</string>
-				<string>8028C7C61AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7C51AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7C61AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>PushNotificationPayload.apns</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7C71AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>InterfaceController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7C81AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>InterfaceController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7C91AAEF64B00A7AB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8028C7C81AAEF64B00A7AB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8028C7CA1AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NotificationController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7CB1AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NotificationController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7CC1AAEF64B00A7AB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8028C7CB1AAEF64B00A7AB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8028C7CD1AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7CE1AAEF64B00A7AB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8028C7CD1AAEF64B00A7AB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8028C7CF1AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8028C7DA1AAEF64B00A7AB62</string>
-				<string>8028C7DC1AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8028C7D01AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8028C7E41AAEF64B00A7AB62</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8028C7CF1AAEF64B00A7AB62</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ReactiveHackerNews WatchKit App</string>
-			<key>productName</key>
-			<string>ReactiveHackerNews WatchKit App</string>
-			<key>productReference</key>
-			<string>8028C7D11AAEF64B00A7AB62</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application.watchapp</string>
-		</dict>
-		<key>8028C7D11AAEF64B00A7AB62</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ReactiveHackerNews WatchKit App.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8028C7D21AAEF64B00A7AB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8028C7D11AAEF64B00A7AB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8028C7D31AAEF64B00A7AB62</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>804853DC1A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8028C7D01AAEF64B00A7AB62</string>
-			<key>remoteInfo</key>
-			<string>ReactiveHackerNews WatchKit App</string>
-		</dict>
-		<key>8028C7D41AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8028C7D01AAEF64B00A7AB62</string>
-			<key>targetProxy</key>
-			<string>8028C7D31AAEF64B00A7AB62</string>
-		</dict>
-		<key>8028C7D51AAEF64B00A7AB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8028C7D81AAEF64B00A7AB62</string>
-				<string>8028C7DB1AAEF64B00A7AB62</string>
-				<string>8028C7D61AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ReactiveHackerNews WatchKit App</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7D61AAEF64B00A7AB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8028C7D71AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7D71AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7D81AAEF64B00A7AB62</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8028C7D91AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Interface.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7D91AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Interface.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7DA1AAEF64B00A7AB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8028C7D81AAEF64B00A7AB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8028C7DB1AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8028C7DC1AAEF64B00A7AB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8028C7DB1AAEF64B00A7AB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8028C7DD1AAEF64B00A7AB62</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>804853DC1A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8028C7C11AAEF64B00A7AB62</string>
-			<key>remoteInfo</key>
-			<string>ReactiveHackerNews WatchKit Extension</string>
-		</dict>
-		<key>8028C7DE1AAEF64B00A7AB62</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8028C7C11AAEF64B00A7AB62</string>
-			<key>targetProxy</key>
-			<string>8028C7DD1AAEF64B00A7AB62</string>
-		</dict>
-		<key>8028C7DF1AAEF64B00A7AB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8028C7C21AAEF64B00A7AB62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>RemoveHeadersOnCopy</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8028C7E01AAEF64B00A7AB62</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>08D83E3CD17C46367FC5EDC0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ReactiveHackerNews WatchKit Extension/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>${TARGET_NAME}</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8028C7E11AAEF64B00A7AB62</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>047F52BA16389685D09FC002</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ReactiveHackerNews WatchKit Extension/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>${TARGET_NAME}</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8028C7E21AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>IBSC_MODULE</key>
-				<string>ReactiveHackerNews_WatchKit_Extension</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ReactiveHackerNews WatchKit App/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
-				<key>TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]</key>
-				<string>1,4</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8028C7E31AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>IBSC_MODULE</key>
-				<string>ReactiveHackerNews_WatchKit_Extension</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ReactiveHackerNews WatchKit App/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
-				<key>TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]</key>
-				<string>1,4</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8028C7E41AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8028C7E21AAEF64B00A7AB62</string>
-				<string>8028C7E31AAEF64B00A7AB62</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8028C7E51AAEF64B00A7AB62</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8028C7E01AAEF64B00A7AB62</string>
-				<string>8028C7E11AAEF64B00A7AB62</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8028C7E61AAEF8BF00A7AB62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8056EE051A899905007FDB85</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>804853DB1A89166D008C0D75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>804853E61A89166D008C0D75</string>
-				<string>804854001A89166D008C0D75</string>
-				<string>8049BB951AABF451002F1A83</string>
-				<string>8028C7C31AAEF64B00A7AB62</string>
-				<string>8028C7D51AAEF64B00A7AB62</string>
-				<string>804853E51A89166D008C0D75</string>
-				<string>A3705E35DDCCBA3CD01A28A8</string>
-				<string>5529945272E0F4BACA05EC02</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853DC1A89166D008C0D75</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0610</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Intelligent Gadget</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>8028C7C11AAEF64B00A7AB62</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.2</string>
-					</dict>
-					<key>8028C7D01AAEF64B00A7AB62</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.2</string>
-					</dict>
-					<key>804853E31A89166D008C0D75</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-					</dict>
-					<key>804853FC1A89166D008C0D75</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-						<key>TestTargetID</key>
-						<string>804853E31A89166D008C0D75</string>
-					</dict>
-					<key>8049BB911AABF451002F1A83</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>6.1.1</string>
-						<key>DevelopmentTeam</key>
-						<string>B89DDD6AUG</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>804853DF1A89166D008C0D75</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>804853DB1A89166D008C0D75</string>
-			<key>productRefGroup</key>
-			<string>804853E51A89166D008C0D75</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>804853E31A89166D008C0D75</string>
-				<string>804853FC1A89166D008C0D75</string>
-				<string>8049BB911AABF451002F1A83</string>
-				<string>8028C7C11AAEF64B00A7AB62</string>
-				<string>8028C7D01AAEF64B00A7AB62</string>
-			</array>
-		</dict>
-		<key>804853DF1A89166D008C0D75</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>804854051A89166D008C0D75</string>
-				<string>804854061A89166D008C0D75</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>804853E01A89166D008C0D75</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>805115EF1A8B10BC00E31650</string>
-				<string>805115DB1A8A3B0F00E31650</string>
-				<string>804853F01A89166D008C0D75</string>
-				<string>804853ED1A89166D008C0D75</string>
-				<string>805115D81A8A3AFB00E31650</string>
-				<string>8056EE061A899905007FDB85</string>
-				<string>804853EA1A89166D008C0D75</string>
-				<string>805115E31A8A441600E31650</string>
-				<string>805115EC1A8B083600E31650</string>
-				<string>805115E01A8A427500E31650</string>
-				<string>80598CB01A9F169D000B03CE</string>
-				<string>805115E61A8A4E8100E31650</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>804853E11A89166D008C0D75</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>80BAE0D11AA1ED8A004F4242</string>
-				<string>2FF612C6E2B5A50B9DB2E4FB</string>
-				<string>80BAE0D21AA1ED8A004F4242</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>804853E21A89166D008C0D75</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>804853F31A89166D008C0D75</string>
-				<string>804853F81A89166D008C0D75</string>
-				<string>805115DD1A8A3B1B00E31650</string>
-				<string>804853F51A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>804853E31A89166D008C0D75</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>804854071A89166D008C0D75</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EBAB5781127666E9789AB8B4</string>
-				<string>804853E01A89166D008C0D75</string>
-				<string>804853E11A89166D008C0D75</string>
-				<string>804853E21A89166D008C0D75</string>
-				<string>D74F195779BD32CE5B39AA37</string>
-				<string>80BAE0CE1AA1ED75004F4242</string>
-				<string>8049BBA31AABF451002F1A83</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8049BB9E1AABF451002F1A83</string>
-				<string>8028C7DE1AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ReactiveHackerNews</string>
-			<key>productName</key>
-			<string>ReactiveHackerNews</string>
-			<key>productReference</key>
-			<string>804853E41A89166D008C0D75</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>804853E41A89166D008C0D75</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ReactiveHackerNews.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>804853E51A89166D008C0D75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>804853E41A89166D008C0D75</string>
-				<string>804853FD1A89166D008C0D75</string>
-				<string>8049BB921AABF451002F1A83</string>
-				<string>8028C7C21AAEF64B00A7AB62</string>
-				<string>8028C7D11AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853E61A89166D008C0D75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>805115E91A8A685A00E31650</string>
-				<string>805115E81A8A684E00E31650</string>
-				<string>805115E71A8A683D00E31650</string>
-				<string>804853EB1A89166D008C0D75</string>
-				<string>804853EC1A89166D008C0D75</string>
-				<string>804853EE1A89166D008C0D75</string>
-				<string>804853EF1A89166D008C0D75</string>
-				<string>805115EA1A8B083600E31650</string>
-				<string>805115EB1A8B083600E31650</string>
-				<string>805115ED1A8B10BC00E31650</string>
-				<string>805115EE1A8B10BC00E31650</string>
-				<string>80598CAE1A9F169D000B03CE</string>
-				<string>80598CAF1A9F169D000B03CE</string>
-				<string>804853F11A89166D008C0D75</string>
-				<string>804853F41A89166D008C0D75</string>
-				<string>804853F61A89166D008C0D75</string>
-				<string>804853E71A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ReactiveHackerNews</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853E71A89166D008C0D75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>804853E81A89166D008C0D75</string>
-				<string>804853E91A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853E81A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853E91A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853EA1A89166D008C0D75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>804853E91A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>804853EB1A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853EC1A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853ED1A89166D008C0D75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>804853EC1A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>804853EE1A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853EF1A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853F01A89166D008C0D75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>804853EF1A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>804853F11A89166D008C0D75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>804853F21A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853F21A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853F31A89166D008C0D75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>804853F11A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>804853F41A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853F51A89166D008C0D75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>804853F41A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>804853F61A89166D008C0D75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>804853F71A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853F71A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804853F81A89166D008C0D75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>804853F61A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>804853F91A89166D008C0D75</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>80B8C9211AA56B9D008E5FCE</string>
-				<string>80B8C9201AA56B91008E5FCE</string>
-				<string>80B8C91F1AA5674F008E5FCE</string>
-				<string>80B8C91E1AA566E0008E5FCE</string>
-				<string>804854041A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>804853FA1A89166D008C0D75</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E3685A1C46E11A7FBC1FFAB2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>804853FB1A89166D008C0D75</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>804853FC1A89166D008C0D75</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8048540A1A89166D008C0D75</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8ED0B309493E3FF8C77F9AE7</string>
-				<string>804853F91A89166D008C0D75</string>
-				<string>804853FA1A89166D008C0D75</string>
-				<string>804853FB1A89166D008C0D75</string>
-				<string>3FF317E9C22466FD14838CC1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>804853FF1A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ReactiveHackerNewsTests</string>
-			<key>productName</key>
-			<string>ReactiveHackerNewsTests</string>
-			<key>productReference</key>
-			<string>804853FD1A89166D008C0D75</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>804853FD1A89166D008C0D75</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ReactiveHackerNewsTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>804853FE1A89166D008C0D75</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>804853DC1A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>804853E31A89166D008C0D75</string>
-			<key>remoteInfo</key>
-			<string>ReactiveHackerNews</string>
-		</dict>
-		<key>804853FF1A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>804853E31A89166D008C0D75</string>
-			<key>targetProxy</key>
-			<string>804853FE1A89166D008C0D75</string>
-		</dict>
-		<key>804854001A89166D008C0D75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>80B8C91D1AA566E0008E5FCE</string>
-				<string>804854031A89166D008C0D75</string>
-				<string>804854011A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ReactiveHackerNewsTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804854011A89166D008C0D75</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>804854021A89166D008C0D75</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804854021A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804854031A89166D008C0D75</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ReactiveHackerNewsTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>804854041A89166D008C0D75</key>
-		<dict>
-			<key>fileRef</key>
-			<string>804854031A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>804854051A89166D008C0D75</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>804854061A89166D008C0D75</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>804854071A89166D008C0D75</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>804854081A89166D008C0D75</string>
-				<string>804854091A89166D008C0D75</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>804854081A89166D008C0D75</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>74428AF308B1AF9ABC26B7C6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>4</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(PROJECT_DIR)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ReactiveHackerNews/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>804854091A89166D008C0D75</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>47AF55FF918D3C2186D3604D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>4</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>$(PROJECT_DIR)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ReactiveHackerNews/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8048540A1A89166D008C0D75</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8048540B1A89166D008C0D75</string>
-				<string>8048540C1A89166D008C0D75</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8048540B1A89166D008C0D75</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3C6921C0EB41B1EBEDE6087E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ReactiveHackerNewsTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ReactiveHackerNews.app/ReactiveHackerNews</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8048540C1A89166D008C0D75</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CCBA16BFBFC5987EF152A622</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>ReactiveHackerNewsTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ReactiveHackerNews.app/ReactiveHackerNews</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8049BB8E1AABF451002F1A83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8049BBA41AAC331F002F1A83</string>
-				<string>8049BBA81AAC38CC002F1A83</string>
-				<string>8049BB9A1AABF451002F1A83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8049BB8F1AABF451002F1A83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8049BB941AABF451002F1A83</string>
-				<string>440DFCE7CE9566B314AA5C95</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8049BB901AABF451002F1A83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>80B5592F1AAC77AD003A8C62</string>
-				<string>8049BBA91AAC38CC002F1A83</string>
-				<string>8049BB9C1AABF451002F1A83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8049BB911AABF451002F1A83</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8049BBA21AABF451002F1A83</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B2929F2A7B14120BAF7DEAF8</string>
-				<string>8049BB8E1AABF451002F1A83</string>
-				<string>8049BB8F1AABF451002F1A83</string>
-				<string>8049BB901AABF451002F1A83</string>
-				<string>000B958EC7A65107C26441AA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HackerNewsToday</string>
-			<key>productName</key>
-			<string>HackerNewsToday</string>
-			<key>productReference</key>
-			<string>8049BB921AABF451002F1A83</string>
-			<key>productType</key>
-			<string>com.apple.product-type.app-extension</string>
-		</dict>
-		<key>8049BB921AABF451002F1A83</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.app-extension</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HackerNewsToday.appex</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8049BB931AABF451002F1A83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>NotificationCenter.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/NotificationCenter.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8049BB941AABF451002F1A83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8049BB931AABF451002F1A83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8049BB951AABF451002F1A83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8049BB981AABF451002F1A83</string>
-				<string>8049BB991AABF451002F1A83</string>
-				<string>8049BBA51AAC38CC002F1A83</string>
-				<string>8049BBA61AAC38CC002F1A83</string>
-				<string>8049BBA71AAC38CC002F1A83</string>
-				<string>8049BB9B1AABF451002F1A83</string>
-				<string>8049BB961AABF451002F1A83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HackerNewsToday</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BB961AABF451002F1A83</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8049BB971AABF451002F1A83</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BB971AABF451002F1A83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BB981AABF451002F1A83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TodayViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BB991AABF451002F1A83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TodayViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BB9A1AABF451002F1A83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8049BB991AABF451002F1A83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8049BB9B1AABF451002F1A83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>path</key>
-			<string>MainInterface.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BB9C1AABF451002F1A83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8049BB9B1AABF451002F1A83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8049BB9D1AABF451002F1A83</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>804853DC1A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8049BB911AABF451002F1A83</string>
-			<key>remoteInfo</key>
-			<string>HackerNewsToday</string>
-		</dict>
-		<key>8049BB9E1AABF451002F1A83</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8049BB911AABF451002F1A83</string>
-			<key>targetProxy</key>
-			<string>8049BB9D1AABF451002F1A83</string>
-		</dict>
-		<key>8049BB9F1AABF451002F1A83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8049BB921AABF451002F1A83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>RemoveHeadersOnCopy</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8049BBA01AABF451002F1A83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98D9ED30658036127C26C738</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>HackerNewsToday/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8049BBA11AABF451002F1A83</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C2FBC8306678252020B20BFB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY</key>
-				<string>iPhone Developer</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HackerNewsToday/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8049BBA21AABF451002F1A83</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8049BBA01AABF451002F1A83</string>
-				<string>8049BBA11AABF451002F1A83</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8049BBA31AABF451002F1A83</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string></string>
-			<key>dstSubfolderSpec</key>
-			<string>13</string>
-			<key>files</key>
-			<array>
-				<string>8049BB9F1AABF451002F1A83</string>
-				<string>8028C7DF1AAEF64B00A7AB62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>name</key>
-			<string>Embed App Extensions</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8049BBA41AAC331F002F1A83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8056EE051A899905007FDB85</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8049BBA51AAC38CC002F1A83</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>RHNTodayCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BBA61AAC38CC002F1A83</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RHNTodayCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BBA71AAC38CC002F1A83</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>RHNTodayCell.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8049BBA81AAC38CC002F1A83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8049BBA61AAC38CC002F1A83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8049BBA91AAC38CC002F1A83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8049BBA71AAC38CC002F1A83</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>805115D61A8A3AFB00E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIView+Nib.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115D71A8A3AFB00E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIView+Nib.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115D81A8A3AFB00E31650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115D71A8A3AFB00E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>805115D91A8A3B0F00E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CardView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115DA1A8A3B0F00E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CardView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115DB1A8A3B0F00E31650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115DA1A8A3B0F00E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>805115DC1A8A3B1B00E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>path</key>
-			<string>CardView.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115DD1A8A3B1B00E31650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115DC1A8A3B1B00E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>805115DE1A8A427500E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115DF1A8A427500E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115E01A8A427500E31650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115DF1A8A427500E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>805115E11A8A441600E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>StoryViewModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115E21A8A441600E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>StoryViewModel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115E31A8A441600E31650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115E21A8A441600E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>805115E41A8A4E8100E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ReadabilityClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115E51A8A4E8100E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ReadabilityClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115E61A8A4E8100E31650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115E51A8A4E8100E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>805115E71A8A683D00E31650</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>805115D61A8A3AFB00E31650</string>
-				<string>805115D71A8A3AFB00E31650</string>
-				<string>805115D91A8A3B0F00E31650</string>
-				<string>805115DA1A8A3B0F00E31650</string>
-				<string>805115DC1A8A3B1B00E31650</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Views</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115E81A8A684E00E31650</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>805115DE1A8A427500E31650</string>
-				<string>805115DF1A8A427500E31650</string>
-				<string>805115E11A8A441600E31650</string>
-				<string>805115E21A8A441600E31650</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ViewModels</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115E91A8A685A00E31650</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8056EE041A899905007FDB85</string>
-				<string>8056EE051A899905007FDB85</string>
-				<string>805115E41A8A4E8100E31650</string>
-				<string>805115E51A8A4E8100E31650</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>API Clients</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115EA1A8B083600E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AboutTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115EB1A8B083600E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AboutTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115EC1A8B083600E31650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115EB1A8B083600E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>805115ED1A8B10BC00E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>StoryViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115EE1A8B10BC00E31650</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>StoryViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>805115EF1A8B10BC00E31650</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115EE1A8B10BC00E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8056EE041A899905007FDB85</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HNClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8056EE051A899905007FDB85</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HNClient.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8056EE061A899905007FDB85</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8056EE051A899905007FDB85</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80598CAE1A9F169D000B03CE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIWebView+RAC.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80598CAF1A9F169D000B03CE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIWebView+RAC.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80598CB01A9F169D000B03CE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80598CAF1A9F169D000B03CE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80B5592F1AAC77AD003A8C62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>804853F41A89166D008C0D75</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80B8C91D1AA566E0008E5FCE</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>StoryViewModelTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80B8C91E1AA566E0008E5FCE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80B8C91D1AA566E0008E5FCE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80B8C91F1AA5674F008E5FCE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115E21A8A441600E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80B8C9201AA56B91008E5FCE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8056EE051A899905007FDB85</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80B8C9211AA56B9D008E5FCE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>805115E51A8A4E8100E31650</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80BAE0CE1AA1ED75004F4242</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>./Fabric.framework/run 3a4e9829064aea01fce983e8a8284f5b93965fb0 abb838497d960700471223f8fb0f1e36515bfa27da3bc8d6ac30d0db20837eed</string>
-		</dict>
-		<key>80BAE0CF1AA1ED8A004F4242</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>Crashlytics.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80BAE0D01AA1ED8A004F4242</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>Fabric.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80BAE0D11AA1ED8A004F4242</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80BAE0CF1AA1ED8A004F4242</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80BAE0D21AA1ED8A004F4242</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80BAE0D01AA1ED8A004F4242</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8ED0B309493E3FF8C77F9AE7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>98D9ED30658036127C26C738</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HackerNewsToday.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HackerNewsToday/Pods-HackerNewsToday.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3705E35DDCCBA3CD01A28A8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>74428AF308B1AF9ABC26B7C6</string>
-				<string>47AF55FF918D3C2186D3604D</string>
-				<string>3C6921C0EB41B1EBEDE6087E</string>
-				<string>CCBA16BFBFC5987EF152A622</string>
-				<string>98D9ED30658036127C26C738</string>
-				<string>C2FBC8306678252020B20BFB</string>
-				<string>08D83E3CD17C46367FC5EDC0</string>
-				<string>047F52BA16389685D09FC002</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B08E59343F1E2F99E14A6A20</key>
-		<dict>
-			<key>fileRef</key>
-			<string>112EAD756B1C78B77E01BE5C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B2929F2A7B14120BAF7DEAF8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C2FBC8306678252020B20BFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HackerNewsToday.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HackerNewsToday/Pods-HackerNewsToday.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCBA16BFBFC5987EF152A622</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ReactiveHackerNewsTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D74F195779BD32CE5B39AA37</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveHackerNews/Pods-ReactiveHackerNews-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E3685A1C46E11A7FBC1FFAB2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B85FC12ECC6234B549F201F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBAB5781127666E9789AB8B4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F68A441E593048018DA4DCC0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>804853DC1A89166D008C0D75</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF612C6E2B5A50B9DB2E4FB /* libPods-ReactiveHackerNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8AEE4C6CD366FDF968012A /* libPods-ReactiveHackerNews.a */; };
+		440DFCE7CE9566B314AA5C95 /* libPods-HackerNewsToday.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2405AD412DEF1E6F9D5231 /* libPods-HackerNewsToday.a */; };
+		8028C7C91AAEF64B00A7AB62 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8028C7C81AAEF64B00A7AB62 /* InterfaceController.m */; };
+		8028C7CC1AAEF64B00A7AB62 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8028C7CB1AAEF64B00A7AB62 /* NotificationController.m */; };
+		8028C7CE1AAEF64B00A7AB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8028C7CD1AAEF64B00A7AB62 /* Images.xcassets */; };
+		8028C7D21AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 8028C7D11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App.app */; };
+		8028C7DA1AAEF64B00A7AB62 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8028C7D81AAEF64B00A7AB62 /* Interface.storyboard */; };
+		8028C7DC1AAEF64B00A7AB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8028C7DB1AAEF64B00A7AB62 /* Images.xcassets */; };
+		8028C7DF1AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8028C7C21AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8028C7E61AAEF8BF00A7AB62 /* HNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056EE051A899905007FDB85 /* HNClient.m */; };
+		802BF6391AB5CE1500C0D96F /* today-widget1.png in Resources */ = {isa = PBXBuildFile; fileRef = 802BF6381AB5CE1400C0D96F /* today-widget1.png */; };
+		802BF63B1AB5CF8C00C0D96F /* today-widget2.png in Resources */ = {isa = PBXBuildFile; fileRef = 802BF63A1AB5CF8C00C0D96F /* today-widget2.png */; };
+		802BF63D1AB5CF9C00C0D96F /* add-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 802BF63C1AB5CF9C00C0D96F /* add-button.png */; };
+		804853EA1A89166D008C0D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 804853E91A89166D008C0D75 /* main.m */; };
+		804853ED1A89166D008C0D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 804853EC1A89166D008C0D75 /* AppDelegate.m */; };
+		804853F01A89166D008C0D75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804853EF1A89166D008C0D75 /* ViewController.m */; };
+		804853F31A89166D008C0D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804853F11A89166D008C0D75 /* Main.storyboard */; };
+		804853F51A89166D008C0D75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804853F41A89166D008C0D75 /* Images.xcassets */; };
+		804853F81A89166D008C0D75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804853F61A89166D008C0D75 /* LaunchScreen.xib */; };
+		804854041A89166D008C0D75 /* ReactiveHackerNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 804854031A89166D008C0D75 /* ReactiveHackerNewsTests.m */; };
+		8049BB941AABF451002F1A83 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8049BB931AABF451002F1A83 /* NotificationCenter.framework */; };
+		8049BB9A1AABF451002F1A83 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8049BB991AABF451002F1A83 /* TodayViewController.m */; };
+		8049BB9C1AABF451002F1A83 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8049BB9B1AABF451002F1A83 /* MainInterface.storyboard */; };
+		8049BB9F1AABF451002F1A83 /* HackerNewsToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8049BB921AABF451002F1A83 /* HackerNewsToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8049BBA41AAC331F002F1A83 /* HNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056EE051A899905007FDB85 /* HNClient.m */; };
+		8049BBA81AAC38CC002F1A83 /* RHNTodayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8049BBA61AAC38CC002F1A83 /* RHNTodayCell.m */; };
+		8049BBA91AAC38CC002F1A83 /* RHNTodayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8049BBA71AAC38CC002F1A83 /* RHNTodayCell.xib */; };
+		805115D81A8A3AFB00E31650 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115D71A8A3AFB00E31650 /* UIView+Nib.m */; };
+		805115DB1A8A3B0F00E31650 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115DA1A8A3B0F00E31650 /* CardView.m */; };
+		805115DD1A8A3B1B00E31650 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805115DC1A8A3B1B00E31650 /* CardView.xib */; };
+		805115E01A8A427500E31650 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115DF1A8A427500E31650 /* ViewModel.m */; };
+		805115E31A8A441600E31650 /* StoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115E21A8A441600E31650 /* StoryViewModel.m */; };
+		805115E61A8A4E8100E31650 /* ReadabilityClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115E51A8A4E8100E31650 /* ReadabilityClient.m */; };
+		805115EC1A8B083600E31650 /* AboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115EB1A8B083600E31650 /* AboutTableViewController.m */; };
+		805115EF1A8B10BC00E31650 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115EE1A8B10BC00E31650 /* StoryViewController.m */; };
+		8056EE061A899905007FDB85 /* HNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056EE051A899905007FDB85 /* HNClient.m */; };
+		80598CB01A9F169D000B03CE /* UIWebView+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598CAF1A9F169D000B03CE /* UIWebView+RAC.m */; };
+		80B5592F1AAC77AD003A8C62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804853F41A89166D008C0D75 /* Images.xcassets */; };
+		80B8C91E1AA566E0008E5FCE /* StoryViewModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C91D1AA566E0008E5FCE /* StoryViewModelTests.m */; };
+		80B8C91F1AA5674F008E5FCE /* StoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115E21A8A441600E31650 /* StoryViewModel.m */; };
+		80B8C9201AA56B91008E5FCE /* HNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056EE051A899905007FDB85 /* HNClient.m */; };
+		80B8C9211AA56B9D008E5FCE /* ReadabilityClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 805115E51A8A4E8100E31650 /* ReadabilityClient.m */; };
+		80BAE0D11AA1ED8A004F4242 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BAE0CF1AA1ED8A004F4242 /* Crashlytics.framework */; };
+		80BAE0D21AA1ED8A004F4242 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BAE0D01AA1ED8A004F4242 /* Fabric.framework */; };
+		B08E59343F1E2F99E14A6A20 /* libPods-ReactiveHackerNews WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 112EAD756B1C78B77E01BE5C /* libPods-ReactiveHackerNews WatchKit Extension.a */; };
+		E3685A1C46E11A7FBC1FFAB2 /* libPods-ReactiveHackerNewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B85FC12ECC6234B549F201F /* libPods-ReactiveHackerNewsTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8028C7D31AAEF64B00A7AB62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804853DC1A89166D008C0D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8028C7D01AAEF64B00A7AB62;
+			remoteInfo = "ReactiveHackerNews WatchKit App";
+		};
+		8028C7DD1AAEF64B00A7AB62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804853DC1A89166D008C0D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8028C7C11AAEF64B00A7AB62;
+			remoteInfo = "ReactiveHackerNews WatchKit Extension";
+		};
+		804853FE1A89166D008C0D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804853DC1A89166D008C0D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 804853E31A89166D008C0D75;
+			remoteInfo = ReactiveHackerNews;
+		};
+		8049BB9D1AABF451002F1A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804853DC1A89166D008C0D75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8049BB911AABF451002F1A83;
+			remoteInfo = HackerNewsToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8049BBA31AABF451002F1A83 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8049BB9F1AABF451002F1A83 /* HackerNewsToday.appex in Embed App Extensions */,
+				8028C7DF1AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		047F52BA16389685D09FC002 /* Pods-ReactiveHackerNews WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNews WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNews WatchKit Extension/Pods-ReactiveHackerNews WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		08D83E3CD17C46367FC5EDC0 /* Pods-ReactiveHackerNews WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNews WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNews WatchKit Extension/Pods-ReactiveHackerNews WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		112EAD756B1C78B77E01BE5C /* libPods-ReactiveHackerNews WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveHackerNews WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8AEE4C6CD366FDF968012A /* libPods-ReactiveHackerNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveHackerNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2405AD412DEF1E6F9D5231 /* libPods-HackerNewsToday.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNewsToday.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6921C0EB41B1EBEDE6087E /* Pods-ReactiveHackerNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47AF55FF918D3C2186D3604D /* Pods-ReactiveHackerNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNews/Pods-ReactiveHackerNews.release.xcconfig"; sourceTree = "<group>"; };
+		4B85FC12ECC6234B549F201F /* libPods-ReactiveHackerNewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveHackerNewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74428AF308B1AF9ABC26B7C6 /* Pods-ReactiveHackerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNews/Pods-ReactiveHackerNews.debug.xcconfig"; sourceTree = "<group>"; };
+		8028C7C21AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ReactiveHackerNews WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8028C7C51AAEF64B00A7AB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8028C7C61AAEF64B00A7AB62 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8028C7C71AAEF64B00A7AB62 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		8028C7C81AAEF64B00A7AB62 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		8028C7CA1AAEF64B00A7AB62 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		8028C7CB1AAEF64B00A7AB62 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		8028C7CD1AAEF64B00A7AB62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8028C7D11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveHackerNews WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8028C7D71AAEF64B00A7AB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8028C7D91AAEF64B00A7AB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8028C7DB1AAEF64B00A7AB62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		802BF6381AB5CE1400C0D96F /* today-widget1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today-widget1.png"; sourceTree = "<group>"; };
+		802BF63A1AB5CF8C00C0D96F /* today-widget2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today-widget2.png"; sourceTree = "<group>"; };
+		802BF63C1AB5CF9C00C0D96F /* add-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-button.png"; sourceTree = "<group>"; };
+		804853E41A89166D008C0D75 /* ReactiveHackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveHackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		804853E81A89166D008C0D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804853E91A89166D008C0D75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		804853EB1A89166D008C0D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		804853EC1A89166D008C0D75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		804853EE1A89166D008C0D75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		804853EF1A89166D008C0D75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		804853F21A89166D008C0D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		804853F41A89166D008C0D75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		804853F71A89166D008C0D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		804853FD1A89166D008C0D75 /* ReactiveHackerNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveHackerNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		804854021A89166D008C0D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804854031A89166D008C0D75 /* ReactiveHackerNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveHackerNewsTests.m; sourceTree = "<group>"; };
+		8049BB921AABF451002F1A83 /* HackerNewsToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HackerNewsToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8049BB931AABF451002F1A83 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		8049BB971AABF451002F1A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8049BB981AABF451002F1A83 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		8049BB991AABF451002F1A83 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		8049BB9B1AABF451002F1A83 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8049BBA51AAC38CC002F1A83 /* RHNTodayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNTodayCell.h; sourceTree = "<group>"; };
+		8049BBA61AAC38CC002F1A83 /* RHNTodayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNTodayCell.m; sourceTree = "<group>"; };
+		8049BBA71AAC38CC002F1A83 /* RHNTodayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RHNTodayCell.xib; sourceTree = "<group>"; };
+		805115D61A8A3AFB00E31650 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		805115D71A8A3AFB00E31650 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		805115D91A8A3B0F00E31650 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		805115DA1A8A3B0F00E31650 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		805115DC1A8A3B1B00E31650 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		805115DE1A8A427500E31650 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		805115DF1A8A427500E31650 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		805115E11A8A441600E31650 /* StoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewModel.h; sourceTree = "<group>"; };
+		805115E21A8A441600E31650 /* StoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewModel.m; sourceTree = "<group>"; };
+		805115E41A8A4E8100E31650 /* ReadabilityClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadabilityClient.h; sourceTree = "<group>"; };
+		805115E51A8A4E8100E31650 /* ReadabilityClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadabilityClient.m; sourceTree = "<group>"; };
+		805115EA1A8B083600E31650 /* AboutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutTableViewController.h; sourceTree = "<group>"; };
+		805115EB1A8B083600E31650 /* AboutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutTableViewController.m; sourceTree = "<group>"; };
+		805115ED1A8B10BC00E31650 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		805115EE1A8B10BC00E31650 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		8056EE041A899905007FDB85 /* HNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNClient.h; sourceTree = "<group>"; };
+		8056EE051A899905007FDB85 /* HNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNClient.m; sourceTree = "<group>"; };
+		80598CAE1A9F169D000B03CE /* UIWebView+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+RAC.h"; sourceTree = "<group>"; };
+		80598CAF1A9F169D000B03CE /* UIWebView+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+RAC.m"; sourceTree = "<group>"; };
+		80B8C91D1AA566E0008E5FCE /* StoryViewModelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewModelTests.m; sourceTree = "<group>"; };
+		80BAE0CF1AA1ED8A004F4242 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		80BAE0D01AA1ED8A004F4242 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		98D9ED30658036127C26C738 /* Pods-HackerNewsToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsToday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackerNewsToday/Pods-HackerNewsToday.debug.xcconfig"; sourceTree = "<group>"; };
+		C2FBC8306678252020B20BFB /* Pods-HackerNewsToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerNewsToday.release.xcconfig"; path = "Pods/Target Support Files/Pods-HackerNewsToday/Pods-HackerNewsToday.release.xcconfig"; sourceTree = "<group>"; };
+		CCBA16BFBFC5987EF152A622 /* Pods-ReactiveHackerNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveHackerNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8028C7BF1AAEF64B00A7AB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08E59343F1E2F99E14A6A20 /* libPods-ReactiveHackerNews WatchKit Extension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804853E11A89166D008C0D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BAE0D11AA1ED8A004F4242 /* Crashlytics.framework in Frameworks */,
+				2FF612C6E2B5A50B9DB2E4FB /* libPods-ReactiveHackerNews.a in Frameworks */,
+				80BAE0D21AA1ED8A004F4242 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804853FA1A89166D008C0D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3685A1C46E11A7FBC1FFAB2 /* libPods-ReactiveHackerNewsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8049BB8F1AABF451002F1A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8049BB941AABF451002F1A83 /* NotificationCenter.framework in Frameworks */,
+				440DFCE7CE9566B314AA5C95 /* libPods-HackerNewsToday.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5529945272E0F4BACA05EC02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80BAE0CF1AA1ED8A004F4242 /* Crashlytics.framework */,
+				80BAE0D01AA1ED8A004F4242 /* Fabric.framework */,
+				1D8AEE4C6CD366FDF968012A /* libPods-ReactiveHackerNews.a */,
+				4B85FC12ECC6234B549F201F /* libPods-ReactiveHackerNewsTests.a */,
+				8049BB931AABF451002F1A83 /* NotificationCenter.framework */,
+				2D2405AD412DEF1E6F9D5231 /* libPods-HackerNewsToday.a */,
+				112EAD756B1C78B77E01BE5C /* libPods-ReactiveHackerNews WatchKit Extension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8028C7C31AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8028C7C71AAEF64B00A7AB62 /* InterfaceController.h */,
+				8028C7C81AAEF64B00A7AB62 /* InterfaceController.m */,
+				8028C7CA1AAEF64B00A7AB62 /* NotificationController.h */,
+				8028C7CB1AAEF64B00A7AB62 /* NotificationController.m */,
+				8028C7CD1AAEF64B00A7AB62 /* Images.xcassets */,
+				8028C7C41AAEF64B00A7AB62 /* Supporting Files */,
+			);
+			path = "ReactiveHackerNews WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8028C7C41AAEF64B00A7AB62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8028C7C51AAEF64B00A7AB62 /* Info.plist */,
+				8028C7C61AAEF64B00A7AB62 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8028C7D51AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8028C7D81AAEF64B00A7AB62 /* Interface.storyboard */,
+				8028C7DB1AAEF64B00A7AB62 /* Images.xcassets */,
+				8028C7D61AAEF64B00A7AB62 /* Supporting Files */,
+			);
+			path = "ReactiveHackerNews WatchKit App";
+			sourceTree = "<group>";
+		};
+		8028C7D61AAEF64B00A7AB62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8028C7D71AAEF64B00A7AB62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		804853DB1A89166D008C0D75 = {
+			isa = PBXGroup;
+			children = (
+				804853E61A89166D008C0D75 /* ReactiveHackerNews */,
+				804854001A89166D008C0D75 /* ReactiveHackerNewsTests */,
+				8049BB951AABF451002F1A83 /* HackerNewsToday */,
+				8028C7C31AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension */,
+				8028C7D51AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App */,
+				804853E51A89166D008C0D75 /* Products */,
+				A3705E35DDCCBA3CD01A28A8 /* Pods */,
+				5529945272E0F4BACA05EC02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		804853E51A89166D008C0D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804853E41A89166D008C0D75 /* ReactiveHackerNews.app */,
+				804853FD1A89166D008C0D75 /* ReactiveHackerNewsTests.xctest */,
+				8049BB921AABF451002F1A83 /* HackerNewsToday.appex */,
+				8028C7C21AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex */,
+				8028C7D11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804853E61A89166D008C0D75 /* ReactiveHackerNews */ = {
+			isa = PBXGroup;
+			children = (
+				805115E91A8A685A00E31650 /* API Clients */,
+				805115E81A8A684E00E31650 /* ViewModels */,
+				805115E71A8A683D00E31650 /* Views */,
+				804853EB1A89166D008C0D75 /* AppDelegate.h */,
+				804853EC1A89166D008C0D75 /* AppDelegate.m */,
+				804853EE1A89166D008C0D75 /* ViewController.h */,
+				804853EF1A89166D008C0D75 /* ViewController.m */,
+				805115EA1A8B083600E31650 /* AboutTableViewController.h */,
+				805115EB1A8B083600E31650 /* AboutTableViewController.m */,
+				805115ED1A8B10BC00E31650 /* StoryViewController.h */,
+				805115EE1A8B10BC00E31650 /* StoryViewController.m */,
+				80598CAE1A9F169D000B03CE /* UIWebView+RAC.h */,
+				80598CAF1A9F169D000B03CE /* UIWebView+RAC.m */,
+				804853F11A89166D008C0D75 /* Main.storyboard */,
+				804853F41A89166D008C0D75 /* Images.xcassets */,
+				804853F61A89166D008C0D75 /* LaunchScreen.xib */,
+				802BF6381AB5CE1400C0D96F /* today-widget1.png */,
+				802BF63A1AB5CF8C00C0D96F /* today-widget2.png */,
+				802BF63C1AB5CF9C00C0D96F /* add-button.png */,
+				804853E71A89166D008C0D75 /* Supporting Files */,
+			);
+			path = ReactiveHackerNews;
+			sourceTree = "<group>";
+		};
+		804853E71A89166D008C0D75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				804853E81A89166D008C0D75 /* Info.plist */,
+				804853E91A89166D008C0D75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		804854001A89166D008C0D75 /* ReactiveHackerNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				80B8C91D1AA566E0008E5FCE /* StoryViewModelTests.m */,
+				804854031A89166D008C0D75 /* ReactiveHackerNewsTests.m */,
+				804854011A89166D008C0D75 /* Supporting Files */,
+			);
+			path = ReactiveHackerNewsTests;
+			sourceTree = "<group>";
+		};
+		804854011A89166D008C0D75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				804854021A89166D008C0D75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8049BB951AABF451002F1A83 /* HackerNewsToday */ = {
+			isa = PBXGroup;
+			children = (
+				8049BB981AABF451002F1A83 /* TodayViewController.h */,
+				8049BB991AABF451002F1A83 /* TodayViewController.m */,
+				8049BBA51AAC38CC002F1A83 /* RHNTodayCell.h */,
+				8049BBA61AAC38CC002F1A83 /* RHNTodayCell.m */,
+				8049BBA71AAC38CC002F1A83 /* RHNTodayCell.xib */,
+				8049BB9B1AABF451002F1A83 /* MainInterface.storyboard */,
+				8049BB961AABF451002F1A83 /* Supporting Files */,
+			);
+			path = HackerNewsToday;
+			sourceTree = "<group>";
+		};
+		8049BB961AABF451002F1A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8049BB971AABF451002F1A83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		805115E71A8A683D00E31650 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				805115D61A8A3AFB00E31650 /* UIView+Nib.h */,
+				805115D71A8A3AFB00E31650 /* UIView+Nib.m */,
+				805115D91A8A3B0F00E31650 /* CardView.h */,
+				805115DA1A8A3B0F00E31650 /* CardView.m */,
+				805115DC1A8A3B1B00E31650 /* CardView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		805115E81A8A684E00E31650 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				805115DE1A8A427500E31650 /* ViewModel.h */,
+				805115DF1A8A427500E31650 /* ViewModel.m */,
+				805115E11A8A441600E31650 /* StoryViewModel.h */,
+				805115E21A8A441600E31650 /* StoryViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		805115E91A8A685A00E31650 /* API Clients */ = {
+			isa = PBXGroup;
+			children = (
+				8056EE041A899905007FDB85 /* HNClient.h */,
+				8056EE051A899905007FDB85 /* HNClient.m */,
+				805115E41A8A4E8100E31650 /* ReadabilityClient.h */,
+				805115E51A8A4E8100E31650 /* ReadabilityClient.m */,
+			);
+			name = "API Clients";
+			sourceTree = "<group>";
+		};
+		A3705E35DDCCBA3CD01A28A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74428AF308B1AF9ABC26B7C6 /* Pods-ReactiveHackerNews.debug.xcconfig */,
+				47AF55FF918D3C2186D3604D /* Pods-ReactiveHackerNews.release.xcconfig */,
+				3C6921C0EB41B1EBEDE6087E /* Pods-ReactiveHackerNewsTests.debug.xcconfig */,
+				CCBA16BFBFC5987EF152A622 /* Pods-ReactiveHackerNewsTests.release.xcconfig */,
+				98D9ED30658036127C26C738 /* Pods-HackerNewsToday.debug.xcconfig */,
+				C2FBC8306678252020B20BFB /* Pods-HackerNewsToday.release.xcconfig */,
+				08D83E3CD17C46367FC5EDC0 /* Pods-ReactiveHackerNews WatchKit Extension.debug.xcconfig */,
+				047F52BA16389685D09FC002 /* Pods-ReactiveHackerNews WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8028C7C11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8028C7E51AAEF64B00A7AB62 /* Build configuration list for PBXNativeTarget "ReactiveHackerNews WatchKit Extension" */;
+			buildPhases = (
+				F68A441E593048018DA4DCC0 /* Check Pods Manifest.lock */,
+				8028C7BE1AAEF64B00A7AB62 /* Sources */,
+				8028C7BF1AAEF64B00A7AB62 /* Frameworks */,
+				8028C7C01AAEF64B00A7AB62 /* Resources */,
+				4B34C18DC80E28D1BFACD65C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8028C7D41AAEF64B00A7AB62 /* PBXTargetDependency */,
+			);
+			name = "ReactiveHackerNews WatchKit Extension";
+			productName = "ReactiveHackerNews WatchKit Extension";
+			productReference = 8028C7C21AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		8028C7D01AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8028C7E41AAEF64B00A7AB62 /* Build configuration list for PBXNativeTarget "ReactiveHackerNews WatchKit App" */;
+			buildPhases = (
+				8028C7CF1AAEF64B00A7AB62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveHackerNews WatchKit App";
+			productName = "ReactiveHackerNews WatchKit App";
+			productReference = 8028C7D11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		804853E31A89166D008C0D75 /* ReactiveHackerNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804854071A89166D008C0D75 /* Build configuration list for PBXNativeTarget "ReactiveHackerNews" */;
+			buildPhases = (
+				EBAB5781127666E9789AB8B4 /* Check Pods Manifest.lock */,
+				804853E01A89166D008C0D75 /* Sources */,
+				804853E11A89166D008C0D75 /* Frameworks */,
+				804853E21A89166D008C0D75 /* Resources */,
+				D74F195779BD32CE5B39AA37 /* Copy Pods Resources */,
+				80BAE0CE1AA1ED75004F4242 /* ShellScript */,
+				8049BBA31AABF451002F1A83 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8049BB9E1AABF451002F1A83 /* PBXTargetDependency */,
+				8028C7DE1AAEF64B00A7AB62 /* PBXTargetDependency */,
+			);
+			name = ReactiveHackerNews;
+			productName = ReactiveHackerNews;
+			productReference = 804853E41A89166D008C0D75 /* ReactiveHackerNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		804853FC1A89166D008C0D75 /* ReactiveHackerNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8048540A1A89166D008C0D75 /* Build configuration list for PBXNativeTarget "ReactiveHackerNewsTests" */;
+			buildPhases = (
+				8ED0B309493E3FF8C77F9AE7 /* Check Pods Manifest.lock */,
+				804853F91A89166D008C0D75 /* Sources */,
+				804853FA1A89166D008C0D75 /* Frameworks */,
+				804853FB1A89166D008C0D75 /* Resources */,
+				3FF317E9C22466FD14838CC1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				804853FF1A89166D008C0D75 /* PBXTargetDependency */,
+			);
+			name = ReactiveHackerNewsTests;
+			productName = ReactiveHackerNewsTests;
+			productReference = 804853FD1A89166D008C0D75 /* ReactiveHackerNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8049BB911AABF451002F1A83 /* HackerNewsToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8049BBA21AABF451002F1A83 /* Build configuration list for PBXNativeTarget "HackerNewsToday" */;
+			buildPhases = (
+				B2929F2A7B14120BAF7DEAF8 /* Check Pods Manifest.lock */,
+				8049BB8E1AABF451002F1A83 /* Sources */,
+				8049BB8F1AABF451002F1A83 /* Frameworks */,
+				8049BB901AABF451002F1A83 /* Resources */,
+				000B958EC7A65107C26441AA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerNewsToday;
+			productName = HackerNewsToday;
+			productReference = 8049BB921AABF451002F1A83 /* HackerNewsToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804853DC1A89166D008C0D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Intelligent Gadget";
+				TargetAttributes = {
+					8028C7C11AAEF64B00A7AB62 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8028C7D01AAEF64B00A7AB62 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					804853E31A89166D008C0D75 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					804853FC1A89166D008C0D75 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 804853E31A89166D008C0D75;
+					};
+					8049BB911AABF451002F1A83 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = B89DDD6AUG;
+					};
+				};
+			};
+			buildConfigurationList = 804853DF1A89166D008C0D75 /* Build configuration list for PBXProject "ReactiveHackerNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 804853DB1A89166D008C0D75;
+			productRefGroup = 804853E51A89166D008C0D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804853E31A89166D008C0D75 /* ReactiveHackerNews */,
+				804853FC1A89166D008C0D75 /* ReactiveHackerNewsTests */,
+				8049BB911AABF451002F1A83 /* HackerNewsToday */,
+				8028C7C11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension */,
+				8028C7D01AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8028C7C01AAEF64B00A7AB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8028C7D21AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App.app in Resources */,
+				8028C7CE1AAEF64B00A7AB62 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8028C7CF1AAEF64B00A7AB62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8028C7DA1AAEF64B00A7AB62 /* Interface.storyboard in Resources */,
+				8028C7DC1AAEF64B00A7AB62 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804853E21A89166D008C0D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804853F31A89166D008C0D75 /* Main.storyboard in Resources */,
+				802BF6391AB5CE1500C0D96F /* today-widget1.png in Resources */,
+				804853F81A89166D008C0D75 /* LaunchScreen.xib in Resources */,
+				802BF63D1AB5CF9C00C0D96F /* add-button.png in Resources */,
+				805115DD1A8A3B1B00E31650 /* CardView.xib in Resources */,
+				802BF63B1AB5CF8C00C0D96F /* today-widget2.png in Resources */,
+				804853F51A89166D008C0D75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804853FB1A89166D008C0D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8049BB901AABF451002F1A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B5592F1AAC77AD003A8C62 /* Images.xcassets in Resources */,
+				8049BBA91AAC38CC002F1A83 /* RHNTodayCell.xib in Resources */,
+				8049BB9C1AABF451002F1A83 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		000B958EC7A65107C26441AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerNewsToday/Pods-HackerNewsToday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FF317E9C22466FD14838CC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveHackerNewsTests/Pods-ReactiveHackerNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B34C18DC80E28D1BFACD65C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveHackerNews WatchKit Extension/Pods-ReactiveHackerNews WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BAE0CE1AA1ED75004F4242 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 3a4e9829064aea01fce983e8a8284f5b93965fb0 abb838497d960700471223f8fb0f1e36515bfa27da3bc8d6ac30d0db20837eed";
+		};
+		8ED0B309493E3FF8C77F9AE7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2929F2A7B14120BAF7DEAF8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D74F195779BD32CE5B39AA37 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveHackerNews/Pods-ReactiveHackerNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAB5781127666E9789AB8B4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F68A441E593048018DA4DCC0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8028C7BE1AAEF64B00A7AB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8028C7E61AAEF8BF00A7AB62 /* HNClient.m in Sources */,
+				8028C7CC1AAEF64B00A7AB62 /* NotificationController.m in Sources */,
+				8028C7C91AAEF64B00A7AB62 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804853E01A89166D008C0D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805115EF1A8B10BC00E31650 /* StoryViewController.m in Sources */,
+				805115DB1A8A3B0F00E31650 /* CardView.m in Sources */,
+				804853F01A89166D008C0D75 /* ViewController.m in Sources */,
+				804853ED1A89166D008C0D75 /* AppDelegate.m in Sources */,
+				805115D81A8A3AFB00E31650 /* UIView+Nib.m in Sources */,
+				8056EE061A899905007FDB85 /* HNClient.m in Sources */,
+				804853EA1A89166D008C0D75 /* main.m in Sources */,
+				805115E31A8A441600E31650 /* StoryViewModel.m in Sources */,
+				805115EC1A8B083600E31650 /* AboutTableViewController.m in Sources */,
+				805115E01A8A427500E31650 /* ViewModel.m in Sources */,
+				80598CB01A9F169D000B03CE /* UIWebView+RAC.m in Sources */,
+				805115E61A8A4E8100E31650 /* ReadabilityClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804853F91A89166D008C0D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B8C9211AA56B9D008E5FCE /* ReadabilityClient.m in Sources */,
+				80B8C9201AA56B91008E5FCE /* HNClient.m in Sources */,
+				80B8C91F1AA5674F008E5FCE /* StoryViewModel.m in Sources */,
+				80B8C91E1AA566E0008E5FCE /* StoryViewModelTests.m in Sources */,
+				804854041A89166D008C0D75 /* ReactiveHackerNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8049BB8E1AABF451002F1A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8049BBA41AAC331F002F1A83 /* HNClient.m in Sources */,
+				8049BBA81AAC38CC002F1A83 /* RHNTodayCell.m in Sources */,
+				8049BB9A1AABF451002F1A83 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8028C7D41AAEF64B00A7AB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8028C7D01AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App */;
+			targetProxy = 8028C7D31AAEF64B00A7AB62 /* PBXContainerItemProxy */;
+		};
+		8028C7DE1AAEF64B00A7AB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8028C7C11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension */;
+			targetProxy = 8028C7DD1AAEF64B00A7AB62 /* PBXContainerItemProxy */;
+		};
+		804853FF1A89166D008C0D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 804853E31A89166D008C0D75 /* ReactiveHackerNews */;
+			targetProxy = 804853FE1A89166D008C0D75 /* PBXContainerItemProxy */;
+		};
+		8049BB9E1AABF451002F1A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8049BB911AABF451002F1A83 /* HackerNewsToday */;
+			targetProxy = 8049BB9D1AABF451002F1A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8028C7D81AAEF64B00A7AB62 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8028C7D91AAEF64B00A7AB62 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		804853F11A89166D008C0D75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804853F21A89166D008C0D75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		804853F61A89166D008C0D75 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804853F71A89166D008C0D75 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8028C7E01AAEF64B00A7AB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D83E3CD17C46367FC5EDC0 /* Pods-ReactiveHackerNews WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReactiveHackerNews WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8028C7E11AAEF64B00A7AB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047F52BA16389685D09FC002 /* Pods-ReactiveHackerNews WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "ReactiveHackerNews WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8028C7E21AAEF64B00A7AB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ReactiveHackerNews_WatchKit_Extension;
+				INFOPLIST_FILE = "ReactiveHackerNews WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		8028C7E31AAEF64B00A7AB62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = ReactiveHackerNews_WatchKit_Extension;
+				INFOPLIST_FILE = "ReactiveHackerNews WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		804854051A89166D008C0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		804854061A89166D008C0D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		804854081A89166D008C0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74428AF308B1AF9ABC26B7C6 /* Pods-ReactiveHackerNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ReactiveHackerNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		804854091A89166D008C0D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AF55FF918D3C2186D3604D /* Pods-ReactiveHackerNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ReactiveHackerNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		8048540B1A89166D008C0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6921C0EB41B1EBEDE6087E /* Pods-ReactiveHackerNewsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactiveHackerNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveHackerNews.app/ReactiveHackerNews";
+			};
+			name = Debug;
+		};
+		8048540C1A89166D008C0D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBA16BFBFC5987EF152A622 /* Pods-ReactiveHackerNewsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactiveHackerNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveHackerNews.app/ReactiveHackerNews";
+			};
+			name = Release;
+		};
+		8049BBA01AABF451002F1A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D9ED30658036127C26C738 /* Pods-HackerNewsToday.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackerNewsToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8049BBA11AABF451002F1A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FBC8306678252020B20BFB /* Pods-HackerNewsToday.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HackerNewsToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8028C7E41AAEF64B00A7AB62 /* Build configuration list for PBXNativeTarget "ReactiveHackerNews WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8028C7E21AAEF64B00A7AB62 /* Debug */,
+				8028C7E31AAEF64B00A7AB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8028C7E51AAEF64B00A7AB62 /* Build configuration list for PBXNativeTarget "ReactiveHackerNews WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8028C7E01AAEF64B00A7AB62 /* Debug */,
+				8028C7E11AAEF64B00A7AB62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804853DF1A89166D008C0D75 /* Build configuration list for PBXProject "ReactiveHackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804854051A89166D008C0D75 /* Debug */,
+				804854061A89166D008C0D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804854071A89166D008C0D75 /* Build configuration list for PBXNativeTarget "ReactiveHackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804854081A89166D008C0D75 /* Debug */,
+				804854091A89166D008C0D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8048540A1A89166D008C0D75 /* Build configuration list for PBXNativeTarget "ReactiveHackerNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8048540B1A89166D008C0D75 /* Debug */,
+				8048540C1A89166D008C0D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8049BBA21AABF451002F1A83 /* Build configuration list for PBXNativeTarget "HackerNewsToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8049BBA01AABF451002F1A83 /* Debug */,
+				8049BBA11AABF451002F1A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804853DC1A89166D008C0D75 /* Project object */;
+}
