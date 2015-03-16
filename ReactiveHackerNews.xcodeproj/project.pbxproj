@@ -15,7 +15,6 @@
 		8028C7D21AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 8028C7D11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App.app */; };
 		8028C7DA1AAEF64B00A7AB62 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8028C7D81AAEF64B00A7AB62 /* Interface.storyboard */; };
 		8028C7DC1AAEF64B00A7AB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8028C7DB1AAEF64B00A7AB62 /* Images.xcassets */; };
-		8028C7DF1AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8028C7C21AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8028C7E61AAEF8BF00A7AB62 /* HNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8056EE051A899905007FDB85 /* HNClient.m */; };
 		802BF6391AB5CE1500C0D96F /* today-widget1.png in Resources */ = {isa = PBXBuildFile; fileRef = 802BF6381AB5CE1400C0D96F /* today-widget1.png */; };
 		802BF63B1AB5CF8C00C0D96F /* today-widget2.png in Resources */ = {isa = PBXBuildFile; fileRef = 802BF63A1AB5CF8C00C0D96F /* today-widget2.png */; };
@@ -63,13 +62,6 @@
 			remoteGlobalIDString = 8028C7D01AAEF64B00A7AB62;
 			remoteInfo = "ReactiveHackerNews WatchKit App";
 		};
-		8028C7DD1AAEF64B00A7AB62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 804853DC1A89166D008C0D75 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8028C7C11AAEF64B00A7AB62;
-			remoteInfo = "ReactiveHackerNews WatchKit Extension";
-		};
 		804853FE1A89166D008C0D75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 804853DC1A89166D008C0D75 /* Project object */;
@@ -94,7 +86,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				8049BB9F1AABF451002F1A83 /* HackerNewsToday.appex in Embed App Extensions */,
-				8028C7DF1AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +464,6 @@
 			);
 			dependencies = (
 				8049BB9E1AABF451002F1A83 /* PBXTargetDependency */,
-				8028C7DE1AAEF64B00A7AB62 /* PBXTargetDependency */,
 			);
 			name = ReactiveHackerNews;
 			productName = ReactiveHackerNews;
@@ -816,11 +806,6 @@
 			isa = PBXTargetDependency;
 			target = 8028C7D01AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit App */;
 			targetProxy = 8028C7D31AAEF64B00A7AB62 /* PBXContainerItemProxy */;
-		};
-		8028C7DE1AAEF64B00A7AB62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8028C7C11AAEF64B00A7AB62 /* ReactiveHackerNews WatchKit Extension */;
-			targetProxy = 8028C7DD1AAEF64B00A7AB62 /* PBXContainerItemProxy */;
 		};
 		804853FF1A89166D008C0D75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
