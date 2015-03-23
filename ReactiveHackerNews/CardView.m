@@ -79,11 +79,7 @@
         }
     }];
     
-    [[[self.viewModel.loadStoryCommand execute:nil] deliverOnMainThread]
-     subscribeNext:^(id x) {
-        @strongify(self);
-        [self.loadingIndicator stopAnimating];
-    }];
+    [self.viewModel.loadStoryCommand execute:nil];
 
 }
 
