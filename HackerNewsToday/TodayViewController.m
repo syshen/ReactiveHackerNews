@@ -39,6 +39,10 @@ static CGFloat kCellHeight = 70.0f;
     [self.tableView reloadData];
 }
 
+- (UIEdgeInsets) widgetMarginInsetsForProposedMarginInsets:(UIEdgeInsets)defaultMarginInsets {
+    return UIEdgeInsetsZero;
+}
+
 - (void) loadArchivedData {
     NSMutableArray *array = [NSMutableArray array];
     for (NSInteger idx = 0; idx < 10; idx++) {
@@ -62,6 +66,17 @@ static CGFloat kCellHeight = 70.0f;
     return kCellHeight;
 }
 
+- (NSDateFormatter*) dateFormatter {
+    static NSDateFormatter *df = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        df = [[NSDateFormatter alloc] init];
+        df.dateStyle = NSDateFormatterShortStyle;
+        df.timeStyle = NSDateFormatterNoStyle;
+    });
+    return df;
+}
+
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     RHNTodayCell *cell = [tableView dequeueReusableCellWithIdentifier:@"RHNTodayCell" forIndexPath:indexPath];
@@ -71,13 +86,18 @@ static CGFloat kCellHeight = 70.0f;
     cell.commentLabel.text = [NSString stringWithFormat:@"%d", (int)[story[@"kids"] count]];
     cell.nameLabel.text = story[@"by"];
     
+    NSInteger timestamp = [story[@"time"] integerValue];
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:timestamp];
+    cell.dateLabel.text = [NSString  stringWithFormat:@"%@", [[self dateFormatter] stringFromDate:date]];
+
     return cell;
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSDictionary *story = self.stories[indexPath.row];
-    [self.extensionContext openURL:[NSURL URLWithString:story[@"url"]] completionHandler:nil];
+    NSString *target = [NSString stringWithFormat:@"rhn://show?url=%@", story[@"url"]];
+    [self.extensionContext openURL:[NSURL URLWithString:target] completionHandler:nil];
 
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

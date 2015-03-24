@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "StoryViewController.h"
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
 
@@ -22,6 +23,23 @@
     [Fabric with:@[CrashlyticsKit]];
 
     return YES;
+}
+
+- (BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    if ([url.scheme isEqual:@"rhn"]) {
+        StoryViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"StoryViewController"];
+        
+        NSRange range = [url.query rangeOfCharacterFromSet:[NSCharacterSet characterSetWithCharactersInString:@"="]];
+        NSString *urlString = [url.query substringFromIndex:range.location+1];
+        vc.presentingURLString = urlString;
+        
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        [self.window.rootViewController presentViewController:nav animated:YES completion:nil];
+        
+        return YES;
+    }
+    
+    return NO;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
