@@ -120,8 +120,8 @@ static CGFloat kCellHeight = 70.0f;
     // If there's no update required, use NCUpdateResultNoData
     // If there's an update, use NCUpdateResultNewData
     
-    NSLog(@"ask to load new content");
-    completionHandler(NCUpdateResultNewData);
+//    NSLog(@"ask to load new content");
+//    completionHandler(NCUpdateResultNewData);
     
     @weakify(self);
     [[[HNClient sharedClient] topStories] subscribeNext:^(NSArray *topStories) {
