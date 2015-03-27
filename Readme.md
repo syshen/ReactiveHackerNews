@@ -1,6 +1,8 @@
 
 Hacker News app implemented with Reactive Cocoa. 
 
+App is available on App Store: https://itunes.apple.com/us/app/reactive-hacker-news-stay/id969422368?mt=8
+
 <img src="http://f.cl.ly/items/0L0B0a3w3b2W3L0Q3N2V/Screenshot%201.png"/>
 
 <img src="http://f.cl.ly/items/1M2L1y2i1H0s3w2K2913/Screenshot%202.png"/>
